@@ -1,0 +1,78 @@
+
+<scroll-view scroll-y class="scrollPage">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">1.盖洛普优势测评</text>
+  </view>
+  <navigator url="../../gailuopu/gailuopu">
+    <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/gailuopu.jpg?sign=0294548758e63a76f67fd7fa401682d4&t=1601983280"></image>
+  </navigator>
+
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">2.时间管理测评</text>
+  </view>
+  <navigator url="../../211985/211985">
+    <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/time_manegement.jpg?sign=30895a4aa2f5413e6994193497c3e531&t=1602001984"></image>
+  </navigator>
+
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">3.情绪管理测评</text>
+  </view>
+  <navigator url="../../211/211">
+    <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/emotion_control.jpg?sign=dff67652637019d6d5288541f7c5b47d&t=1602003425"></image>
+  </navigator>
+  
+
+  <view class="space">.</view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+
+  <view class="space">.</view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+
+  <button class="MBTI_BUTTON" bindtap="hld_MBTI"  type="primary" style="width:100%" >返回首页看更多精彩内容</button>
+</scroll-view>
+
+<!-- 
+<scroll-view scroll-y class="scrollPage">
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">1.盖洛普优势测评</text>
+  </view>
+  <navigator url="../../gailuopu/gailuopu">
+    <image class="BTIM" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1590181140760&di=d523016a3efd53fd33234403da5dd112&imgtype=0&src=http%3A%2F%2Fgsywww.oss-cn-shenzhen.aliyuncs.com%2Fuploads%2F2017%2F05%2F25%2F5926752a11514.jpg"></image>
+  </navigator>
+  
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">2.时间管理测评</text>
+  </view>
+  <navigator url="../../MBTI_detail/MBTI_detai">
+    <image class="BTIM" src="../../../image/ad8.jpg"></image>
+  </navigator>
+
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">3.情绪管理测评</text>
+  </view>
+  <navigator url="../../DuoZhiYuan/start_des/start_des">
+    <image class="BTIM" src="../../../image/ad10.jpg"></image>
+  </navigator>
+
+  <view class="space">.</view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+
+  <button class="MBTI_BUTTON" bindtap="hld_MBTI"  type="primary" style="width:100%" >返回首页看更多精彩内容</button>
+</scroll-view> -->

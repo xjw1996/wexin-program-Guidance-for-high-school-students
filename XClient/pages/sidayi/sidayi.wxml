@@ -1,0 +1,55 @@
+
+<view class="cu-timeline">
+  <view class="cu-item text-green">
+    <view class="bg-green content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.0.0</view>
+        <view class="cu-tag line-white">2020/04</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.由长春出版社出版，由薛俊生、李晓天、张彤主编的《高中生涯发展指导》教材定稿。</view>
+        <view>2.与教材配套的线上微信小程序同时计划开发。</view>
+      </view>
+    </view>   
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-gradual-purple content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.0.1</view>
+        <view class="cu-tag line-white">2020/07</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.为广大高中生服务的金升金榜公众号开通。</view>
+        <view>2.提供高考报考相关在线视频。</view>
+        <view>3.提供高考报考指导。</view>
+        <view>4.搜索金升金榜关键字关注我们，适时推送高考报告相关讯息。</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-gradual-pink content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.0.2</view>
+        <view class="cu-tag line-white">2020/08</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view>1.扫描《高中生涯职业发展》教材背面的二维码可直接访问线上相关测试资源。</view>
+        <view>2.高考新闻频道开通。</view>
+        <view>3.高考视讯频道开通。</view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item text-green">
+    <view class="bg-gradual-red content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-green">v1.0.3</view>
+        <view class="cu-tag line-white">2020/10</view>
+      </view>
+      <view class="margin-top-sm text-content">
+        <view></view>
+        <view>1.《高中生涯发展指导》教材批量印刷。</view>
+        <view>2.配套线上小程序上线运营。</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,44 @@
+<view class=" customize margin-left-xs padding-customsize-0 radius-customsize text-xl">
+  <view class="cardTitle"><text>第{{nn+1}}题</text></view>
+  <text class="cardTitle_">A.{{subjects[nn].titileA}}</text>
+</view>
+
+<view class="padding-xs">
+  <view class="flex flex-wrap justify-around">
+    <image  class="userpicture" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3225592320,4271074759&fm=26&gp=0.jpg" bindtap="if_A"></image>
+  </view>
+</view>
+<view class="padding-xs">
+  <view class="flex flex-wrap justify-around">
+    <image  class="userpicture1" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3225592320,4271074759&fm=26&gp=0.jpg" bindtap="if_B"></image>
+  </view>
+</view>
+<view class="padding-xs">
+  <view class="flex flex-wrap justify-around">
+    <image  class="userpicture2" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3225592320,4271074759&fm=26&gp=0.jpg" bindtap="if_E"></image>
+  </view>
+</view>
+<view class="padding-xs">
+  <view class="flex flex-wrap justify-around">
+    <image  class="userpicture3" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3225592320,4271074759&fm=26&gp=0.jpg" bindtap="if_C"></image>
+  </view>
+</view>
+<view class="padding-xs">
+  <view class="flex flex-wrap justify-around">
+    <image  class="userpicture4" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3225592320,4271074759&fm=26&gp=0.jpg" bindtap="if_D"></image>
+  </view>
+</view>
+<view class=" customize margin-left-xs padding-customsize-0 radius-customsize text-xl">
+  <text class="cardTitle_">B.{{subjects[nn].titileB}}</text>
+</view>
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>温馨提示
+  </view>
+</view>
+
+<view class="padding bg-white">
+  <view class=" padding"> <text class="text-blue" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果特别同意A题，请点击上边最大圆点、如果同意A题，请点击上边第二个圆点。</text></view>
+  <view class="padding "><text class="text-red" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果持中间立场，请点击中间的小圆点。</text></view>
+  <view class=" padding"><text class="" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果特别同意B题，请点击下边最大圆点、如果同意B题，请点击下边第二个圆点。</text></view>
+</view>

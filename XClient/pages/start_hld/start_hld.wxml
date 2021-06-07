@@ -1,0 +1,26 @@
+<view class="top_white"></view>
+<van-notice-bar
+  mode="link"
+  text="耐心做到最后，不要中途放弃哦，加油，你会更了解你自己的！！"
+/>
+<view class="top_white_3"></view>
+<view class="top_white_2"></view>
+<view class="question_detai" decode="{{true}}" >{{queslist[n].content}}</view>
+
+<view class="selection_A" bindtap="if_A">
+  <text>非常认同</text>
+</view>
+
+<view class="selection_B" bindtap="if_B">
+  <text>认同</text>
+</view>
+
+<view class="selection_C" bindtap="if_C">
+  <text>无所谓</text>
+</view>
+
+<view class="selection_D" bindtap="if_D">
+  <text>完全不认同</text>
+</view>
+
+

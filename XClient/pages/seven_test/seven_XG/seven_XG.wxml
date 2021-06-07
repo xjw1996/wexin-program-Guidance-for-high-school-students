@@ -1,0 +1,47 @@
+
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+   
+    <view class="margin-top-sm">
+    </view>
+    <image src="https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+ 
+   <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+   
+    <view class="cu-item ">
+        <text class="text-red text-bold text-xl" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测试说明</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;习惯对我们有很大的影响，因为它是一贯的，不知不觉中影响我们的品德，暴露我们的本性，左右我们的行为。建立属于我们自己的习惯，首先要知道做什么，其次知道怎么做，最后是坚持下来的意念。怎样才能让产出和产能相平衡？做事更有效率，成为一名高效能人士？史蒂芬·柯维博士在《高效能人士的七个习惯》书中给出了答案：积极主动、以终为始、要事第一、双赢思维、知彼解己、统合综效、自我更新。</text>     
+    </view>
+     <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过完成下面的测试，了解你在以上七个好习惯的得分情况。仔细阅读下列表格中的每句话，做出自己的准确判断，圈出与自己的情况相符的数字（1 表示极差，6 表示杰出）。</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-red text-bold text-lg " decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测试只是参考，绝非决定因素。</text>     
+    </view>
+    <button bindtap="showModal" type="primary" style="width:100%" data-target="DialogModal1">我已认真阅读测评须知并进行下一步</button>
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>
+
+<view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
+    <view class="cu-dialog">
+      <view class="cu-bar bg-white justify-end">
+        <view class="content">重要的事要多说一遍</view>
+        <view class="action" bindtap="hideModal">
+          <text class="cuIcon-close text-red"></text>
+        </view>
+      </view>
+      <view class="padding-xl">
+        各位“童鞋”！如果您真的以仔细阅读，那就去做题吧。但不建议中途退出，请坚持到最后！！如果对规则还有些模棱两可，那就回头看看吧。
+      </view>
+      <view class=" bg-white ">
+        <view class="action">
+          <button class="cu-btn bg-green margin-bottom-sm" bindtap="hideModal_">开始测试</button>
+          <button class="cu-btn line-green text-green margin-bottom-sm" bindtap="hideModal">回头再看看</button>
+        </view>
+      </view>
+    </view>
+  </view>

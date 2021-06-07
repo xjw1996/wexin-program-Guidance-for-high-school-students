@@ -1,0 +1,17 @@
+
+<view class="question_title">
+  <text>{{arr}},{{ZKL[q_n].question}}</text>
+</view>
+
+<view class="selection_A text-center" bindtap="if_A">
+  <text decode="{{true}}">{{ZKL[q_n].A}}</text>
+</view>
+
+<view class="selection_B text-center" bindtap="if_B">
+  <text>{{ZKL[q_n].B}}</text>
+</view>
+
+<view class="selection_C text-center" bindtap="if_C">
+  <text>{{ZKL[q_n].C}}</text>
+</view>
+

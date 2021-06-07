@@ -1,0 +1,176 @@
+<view class="UCenter-bg">
+  <view class="margin-top-sm"></view>
+</view>
+
+<view class="customsize">
+  <image class="cu-avatar-cus round text-left" src="cloud://xue-vi5yk.7875-xue-vi5yk-1301765406/时间.png"></image>
+  <text class="padding-customsize  text-black">1898</text>
+  <image class="cu-avatar-cus round text-left" src="cloud://xue-vi5yk.7875-xue-vi5yk-1301765406/学校.png"></image>
+  <text class="padding-customsize  text-black">公 立</text>
+  <image class="cu-avatar-cus round text-left" src="cloud://xue-vi5yk.7875-xue-vi5yk-1301765406/综合.png"></image>
+  <text class="padding-customsize  text-black">北 京</text>
+  <image class="cu-avatar-cus round text-left" src="cloud://xue-vi5yk.7875-xue-vi5yk-1301765406/教育.png"></image>
+  <text class="padding-customsize  text-black">教育部</text>
+  <image class="cu-avatar-cus round text-left" src="cloud://xue-vi5yk.7875-xue-vi5yk-1301765406/本科.png"></image>
+  <text class="padding-customsize  text-black">本 科</text>
+  <image class="cu-avatar-cus round text-left" src="cloud://xue-vi5yk.7875-xue-vi5yk-1301765406/地点.png"></image>
+  <text class="padding-customsize  text-black">综 合</text>
+  <image class="cu-avatar-cus round text-left" src="cloud://xue-vi5yk.7875-xue-vi5yk-1301765406/硕士.png"></image>
+  <text class="padding-customsize  text-black" decode="{{true}}"> 307&nbsp;</text>
+  <image class="cu-avatar-cus round text-left" src="cloud://xue-vi5yk.7875-xue-vi5yk-1301765406/博士.png"></image>
+  <text class="padding-customsize  text-black"> 303</text>
+</view>
+
+<navigator url="../beijing/beijing/BD_detail/BD_detail">
+  <view class="margin-lg">
+    <text decode="{{true}}" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京大学创办于1898年，初名京师大学堂，是中国第一所国立综合性大学，也是当时中国最高教育行政机&nbsp;&nbsp;</text>
+    <text class="text-green">...全部</text>
+  </view>
+</navigator>  
+
+<view class="padding flex text-center text-grey bg-white shadow-warp">
+  <view class="flex flex-sub flex-direction solid-right">
+    <view class="text-xxl text-orange">3</view>
+    <view class="margin-top-sm">
+      <text ></text> 武书连</view>
+  </view>
+  <view class="flex flex-sub flex-direction solid-right">
+    <view class="text-xxl text-blue">2</view>
+    <view class="margin-top-sm">
+      <text ></text> 软科</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="text-xxl text-green">1</view>
+    <view class="margin-top-sm">
+      <text ></text> 校友会</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="text-xxl text-red">2</view>
+    <view class="margin-top-sm">
+      <text ></text> QS</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="text-xxl text-purple">2</view>
+    <view class="margin-top-sm">
+      <text ></text> U.S.News</view>
+  </view>
+</view>
+
+<scroll-view scroll-x class="bg-white nav margin-top-lg" scroll-with-animation scroll-left="{{scrollLeft}}">
+  <view class="cu-item {{index==TabCur?'text-green cur':''}}" data-s="{{item.name}}" wx:for="{{horizontal}}" data-id="{{index}}" wx:key="key" bindtap="tabSelect" id="{{item.id}}" wx:item="item" wx:key="key">
+    {{item.name}}
+  </view>
+</scroll-view>
+
+
+<view class="padding-top-sm flex text-center text-grey bg-white margin-0 ">
+  <view class="flex flex-sub flex-direction solid-right">
+    <view class="text-xs text-orange">年 份</view>
+    <view class="margin-top-sm">
+      <text class="text-xs"></text>{{content[0].year}}</view>
+  </view>
+  <view class="flex flex-sub flex-direction solid-right">
+    <view class="text-xs text-blue">招生批次</view>
+    <view class="margin-top-sm">
+      <text class="text-xs-customsize">{{content[1].recruit}}</text> </view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="text-xs text-green">最高分</view>
+    <view class="margin-top-sm">
+      <text class="text-xs"></text>{{content[0].max}}</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="text-xs text-red">最低分</view>
+    <view class="margin-top-sm">
+      <text class="text-xs" ></text>{{content[0].min}}</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="text-xs text-purple">平均分</view>
+    <view class="margin-top-sm">
+      <text class="text-xs"></text>{{content[0].average}}</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="text-xs text-purple">录取数</view>
+    <view class="margin-top-sm">
+      <text class="text-xs" ></text>{{content[0].enroll}}</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="text-xs text-purple">最低位次</view>
+    <view class="margin-top-sm">
+      <text class="text-xs"></text>{{content[0].low}}</view>
+  </view>
+</view>
+<view class="padding-0 flex text-center text-grey bg-white margin-0 ">
+  <view class="flex flex-sub flex-direction solid-right">
+    <view class="margin-top-sm">
+      <text class="text-xs"></text>{{content[1].year}}</view>
+  </view>
+  <view class="flex flex-sub flex-direction solid-right">
+    <view class="margin-top-sm">
+      <text class="text-xs-customsize">{{content[1].recruit}}</text> </view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="margin-top-sm">
+      <text class="text-xs"></text>{{content[1].max}}</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="margin-top-sm">
+      <text class="text-xs" ></text>{{content[1].min}}</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="margin-top-sm">
+      <text class="text-xs"></text>{{content[1].average}}</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="margin-top-sm">
+      <text class="text-xs" ></text>{{content[1].enroll}}</view>
+  </view>
+  <view class="flex flex-sub flex-direction">
+    <view class="margin-top-sm">
+      <text class="text-xs"></text>{{content[1].low}}</view>
+  </view>
+</view>
+
+
+
+
+<scroll-view scroll-y class="scrollPage">
+  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+    <view class="cu-bar bg-white solid-bottom margin-top">
+      <view class="action">
+        <text class="cuIcon-title text-orange "></text> 招生简章
+      </view>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/about/log/log" hover-class="none">
+        <text class="cuIcon-formfill text-green"></text>
+        <text class="text-grey">北京大学2020年高水平艺术团招生简章</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/about/log/log" hover-class="none">
+        <text class="cuIcon-formfill text-green"></text>
+        <text class="text-grey">北京大学2020年外语类专业保送生招生简章</text>
+      </navigator>
+    </view>
+   <view class="cu-item arrow">
+      <navigator class="content" url="/pages/about/log/log" hover-class="none">
+        <text class="cuIcon-formfill text-green"></text>
+        <text class="text-grey">北京大学招生章程</text>
+      </navigator>
+    </view>
+   <view class="cu-item arrow">
+      <navigator class="content" url="/pages/about/log/log" hover-class="none">
+        <text class="cuIcon-formfill text-green"></text>
+        <text class="text-grey">北京大学2019年浙江省“三位一体”综合评价招生简章</text>
+      </navigator>
+    </view>
+   <view class="cu-item arrow">
+      <navigator class="content" url="/pages/about/log/log" hover-class="none">
+        <text class="cuIcon-formfill text-green"></text>
+        <text class="text-grey">北京大学2019年上海市“博雅计划”招生简章</text>
+      </navigator>
+    </view>
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>

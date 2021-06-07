@@ -1,0 +1,56 @@
+
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+   
+    <view class="margin-top-sm">
+    </view>
+    <image src="https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+ 
+   <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+   
+    <view class="cu-item ">
+        <text class="text-red text-bold text-xl" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测试说明</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你是否每一天都制订新计划？如认真上课，提高分数，运动健身等。但是
+你真的能做到多少呢？是不是大多数计划都随着你的决心一起半途而废了？请
+做以下心理测试。
+</text>     
+    </view>
+     <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本套试题可以为你的提供比较科学的参考依据，试题共有10题，均为单选题</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.你对本学科的兴趣如何。</text>     
+    </view>
+     <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.根据你的学科知识掌握程度，本学科是否是你的优势学科。</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-red text-bold text-lg " decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测试只是参考，绝非决定因素。</text>     
+    </view>
+    <button bindtap="showModal" type="primary" style="width:100%" data-target="DialogModal1">我已认真阅读测评须知并进行下一步</button>
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>
+
+<view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
+    <view class="cu-dialog">
+      <view class="cu-bar bg-white justify-end">
+        <view class="content">重要的事要多说一遍</view>
+        <view class="action" bindtap="hideModal">
+          <text class="cuIcon-close text-red"></text>
+        </view>
+      </view>
+      <view class="padding-xl">
+        各位“童鞋”！如果您真的以仔细阅读，那就去做题吧。但不建议中途退出，请坚持到最后！！如果对规则还有些模棱两可，那就回头看看吧。
+      </view>
+      <view class=" bg-white ">
+        <view class="action">
+          <button class="cu-btn bg-green margin-bottom-sm" bindtap="hideModal_">开始测试</button>
+          <button class="cu-btn line-green text-green margin-bottom-sm" bindtap="hideModal">回头再看看</button>
+        </view>
+      </view>
+    </view>
+  </view>

@@ -1,0 +1,50 @@
+<view>
+  <block wx:if="{{logged!=true}}">
+    <view class="question_title">
+      <text>{{arr}},{{ZYM[n].question}}</text>
+    </view>
+
+    <view class="selection_A text-center" bindtap="if_A">
+      <text decode="{{true}}">从不</text>
+    </view>
+
+    <view class="selection_B text-center" bindtap="if_B">
+      <text>偶尔</text>
+    </view>
+
+    <view class="selection_C text-center" bindtap="if_C">
+      <text>有时</text>
+    </view>
+
+    <view class="selection_D text-center" bindtap="if_D">
+      <text>经常</text>
+    </view>
+
+    <view class="selection_E text-center" bindtap="if_E">
+      <text>频繁</text>
+    </view>
+
+    <view class="selection_E text-center" bindtap="if_F">
+      <text>总是</text>
+    </view>
+  </block>
+  <block wx:else>
+  <view class="col-2 padding-xs">
+    <view class="padding-xs">
+      <view class="bg-gradual-blue padding-sm radius margin-top shadow-blur">
+          <view class="text-xxl content_position padding-left ">你要挑出与你日常想法最为吻合的三个类型</view>
+      </view>
+    </view>
+  </view>
+   <view class='wrap'>
+    <view class='checkbox-con'>
+    <checkbox-group bindchange="checkboxChange">
+      <label class="{{item.checked?'checkbox checked':'checkbox'}}" wx:for="{{checkboxArr}}" bindtap='checkbox' data-index="{{index}}" wx:key="item.name">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.name}}
+      </label>
+    </checkbox-group>
+      <button type='primary' bindtap='confirm'>提交</button>
+    </view>
+    </view>
+  </block>
+</view>

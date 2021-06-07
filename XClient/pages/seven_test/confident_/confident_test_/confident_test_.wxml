@@ -1,0 +1,11 @@
+<view class="question_title">
+  <text>{{arr}},{{ZXX[n].question}}</text>
+</view>
+
+<view class="selection_A text-center" bindtap="if_A">
+  <text>是</text>
+</view>
+
+<view class="selection_B text-center" bindtap="if_B">
+  <text>否</text>
+</view>

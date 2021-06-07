@@ -1,0 +1,47 @@
+
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+   
+    <view class="margin-top-sm">
+    </view>
+    <image src="https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+ 
+   <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+   
+    <view class="cu-item ">
+        <text class="text-red text-bold text-xl" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测试说明</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DISC 测验是广泛应用的一种人格测验，常用于帮助更好地了解自己的性格以及适合的职业，并改善行为方式。在每一个大标题中的四个选择题中只选择一个最符合你自己的选项。如果你感觉四项都不是特别想选择的答案,这是正常的。你可以使用排除其他三个相对更不符合自己的选项的方法进行选择。一共40题，不能遗漏。请按第一印象最快的选择，如果不能确定，可回忆童年时的情况，或者以你最熟悉的人对你的评价来从中选择。限时：20分钟</text>     
+    </view>
+     <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本套试题可以为你的职业性格测试提供比较科学的参考依据，试题共有40题，均为单选题。</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-red text-bold text-lg " decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测试只是参考，绝非决定因素。</text>     
+    </view>
+    <button bindtap="showModal" type="primary" style="width:100%" data-target="DialogModal1">我已认真阅读测评须知并进行下一步</button>
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>
+
+<view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
+    <view class="cu-dialog">
+      <view class="cu-bar bg-white justify-end">
+        <view class="content">重要的事要多说一遍</view>
+        <view class="action" bindtap="hideModal">
+          <text class="cuIcon-close text-red"></text>
+        </view>
+      </view>
+      <view class="padding-xl">
+        各位“童鞋”！如果您真的以仔细阅读，那就去做题吧。但不建议中途退出，请坚持到最后！！如果对规则还有些模棱两可，那就回头看看吧。
+      </view>
+      <view class=" bg-white ">
+        <view class="action">
+          <button class="cu-btn bg-green margin-bottom-sm" bindtap="hideModal_">开始测试</button>
+          <button class="cu-btn line-green text-green margin-bottom-sm" bindtap="hideModal">回头再看看</button>
+        </view>
+      </view>
+    </view>
+  </view>

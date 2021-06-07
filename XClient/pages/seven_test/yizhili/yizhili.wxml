@@ -1,0 +1,43 @@
+
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+   
+    <view class="margin-top-sm">
+    </view>
+    <image src="https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+ 
+   <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+   
+    <view class="cu-item ">
+        <text class="text-red text-bold text-xl" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测试说明</text>     
+    </view>
+    
+     <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你是否每年都替自己订下大的计划，如减肥、储钱旅行...又是否每每能坚持到底？抑或多是半途而废？想知道你的意志力目前处于什么水平？来做做以下的心理测验，让你对你目前的的意志力情况一目了然.</text>     
+    </view>
+    
+    <button bindtap="showModal" type="primary" style="width:100%" data-target="DialogModal1">我已认真阅读测评须知并进行下一步</button>
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>
+
+<view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
+    <view class="cu-dialog">
+      <view class="cu-bar bg-white justify-end">
+        <view class="content">重要的事要多说一遍</view>
+        <view class="action" bindtap="hideModal">
+          <text class="cuIcon-close text-red"></text>
+        </view>
+      </view>
+      <view class="padding-xl">
+        各位“童鞋”！如果您真的以仔细阅读，那就去做题吧。但不建议中途退出，请坚持到最后！！如果对规则还有些模棱两可，那就回头看看吧。
+      </view>
+      <view class=" bg-white ">
+        <view class="action">
+          <button class="cu-btn bg-green margin-bottom-sm" bindtap="hideModal_">开始测试</button>
+          <button class="cu-btn line-green text-green margin-bottom-sm" bindtap="hideModal">回头再看看</button>
+        </view>
+      </view>
+    </view>
+  </view>

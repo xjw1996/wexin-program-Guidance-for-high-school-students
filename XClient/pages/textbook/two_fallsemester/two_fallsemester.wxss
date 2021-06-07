@@ -1,0 +1,26 @@
+.BTIM{
+  width:90%;
+  height:150px;
+  margin:5rpx 40rpx 15rpx 40rpx;
+  border-radius:20rpx;
+  overflow: hidden;
+}
+
+
+.title_1{
+  font-size: 100%;
+  text-align: center;
+  color: rgb(24, 2, 73);
+  font-weight:700;
+  font-family: 楷体;
+}
+
+.MBTI_BUTTON{
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  text-align: center; 
+}
+.space{
+  margin: 40rpx 0rpx 0rpx 0rpx;
+}

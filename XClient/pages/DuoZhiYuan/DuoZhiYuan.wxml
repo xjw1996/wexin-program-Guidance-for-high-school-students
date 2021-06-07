@@ -1,0 +1,24 @@
+
+<view class="question_title">
+  <text>{{n}},{{DYZ[arr].Q}}</text>
+</view>
+
+<view class="selection_A text-center" bindtap="if_A">
+  <text decode="{{true}}">完全不符</text>
+</view>
+
+<view class="selection_B text-center" bindtap="if_B">
+  <text>小部分符合</text>
+</view>
+
+<view class="selection_C text-center" bindtap="if_C">
+  <text>部分符合</text>
+</view>
+
+<view class="selection_D text-center" bindtap="if_D">
+  <text>大致符合</text>
+</view>
+
+<view class="selection_E text-center" bindtap="if_E">
+  <text>完全符合</text>
+</view>

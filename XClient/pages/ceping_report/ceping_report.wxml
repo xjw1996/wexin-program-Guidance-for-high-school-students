@@ -1,0 +1,9 @@
+<view class="col-2 padding-xs">
+  <view class="padding-xs">
+    <view wx:for="{{ceping_list}}" wx:item="item" wx:key="key" class="bg-gradual-purple padding-sm radius margin-top shadow-blur">
+      <navigator url="{{item[1].src}}" class="BTIM_image">
+        <view class="text-xxl content_position padding-left ">{{item[0].subject}}</view>
+      </navigator>
+    </view>
+  </view>
+</view>

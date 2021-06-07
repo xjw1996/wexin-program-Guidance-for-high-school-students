@@ -1,0 +1,18 @@
+<view class="question_title">
+  <text class="text-center" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第{{n}}题</text>
+</view>
+
+<view class="selection_A" bindtap="if_A">
+  <text>{{E_I[all_arr].A}}</text>
+</view>
+
+<view class="selection_B" bindtap="if_B">
+  <text>{{E_I[all_arr].B}}</text>
+</view>
+<view class="selection_A" bindtap="if_C">
+  <text>{{E_I[all_arr].C}}</text>
+</view>
+
+<view class="selection_B" bindtap="if_D">
+  <text>{{E_I[all_arr].D}}</text>
+</view>

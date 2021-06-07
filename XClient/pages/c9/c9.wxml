@@ -1,0 +1,9 @@
+
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>北京大学</view>
+  <view class='text-content'>
+    <canvas canvas-id="columnCanvas" disable-scroll="true" class="canvas"></canvas>
+    <text decode="{{true}}" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{content[0].introduce}}</text>
+  </view>
+</view>

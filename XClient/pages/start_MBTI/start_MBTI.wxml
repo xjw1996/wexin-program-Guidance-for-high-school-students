@@ -1,0 +1,16 @@
+<!--pages/start_MBTI/start_MBTI.wxml-->
+<van-notice-bar
+  mode="link"
+  text="冰冻三尺非一日之寒,千里之行始于足下"
+/>
+<view class="question_title">
+  <text>{{n}}.{{E_I[all_arr].question}}</text>
+</view>
+
+<view class="selection_A" bindtap="if_A">
+  <text>{{E_I[all_arr].A}}</text>
+</view>
+
+<view class="selection_B" bindtap="if_B">
+  <text>{{E_I[all_arr].B}}</text>
+</view>

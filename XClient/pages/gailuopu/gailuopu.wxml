@@ -1,0 +1,65 @@
+
+<scroll-view scroll-y class="scrollPage">
+  <view class="UCenter-bg">
+   
+    <view class="margin-top-sm">
+    </view>
+    <image src="https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+ 
+   <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+   
+    <view class="cu-item ">
+        <text class="text-red text-bold text-xl" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测试说明</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;盖洛普公司由美国著名的社会科学家乔治·盖洛普博士于 1935 年创立，是全球知名的民意测验和商业调查 / 咨询公司。盖洛普研究了成千上万的成功案例，发现成功者尽管路径各异，却有一定之规，就是扬长避短。盖洛普建议，与其老想自己没什么，不如多想自己有什么，然后设法把它用好。人人都有自己独特的才能和优势，但并不是每个人都知道自己有哪些才能，以至于在学习和工作中难以发挥自己最大的作用。</text>     
+    </view>
+     <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;盖洛普优势测评要解决的问题是“什么是自己内心深处的愉悦”，目的是“让你成为真正的自己”。我们如果不知道自己的优势之所在，在不擅长的领域挣扎，其结果就是带来无穷无尽的消极负面。找到自己的才干，投入练习和开发技能，从而持续做出近乎完美的表现。</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.本测评共有180组题，每组有A和B两个选择，要在60分钟内答完。</text>     
+    </view>
+     <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.如果特别同意A题，请点击上边最大圆点、如果同意A题，请点击上边第二个圆点；如果特别同意B题，请点击下边最大圆点、如果同意B题，请点击下边第二个圆点；如果持中间立场，请点击中间的小圆点。</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.测评时凭第一印象作答。</text>     
+    </view>
+     <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.任何一个结果均没有好坏之分，只会发现你的与众不同。</text>     
+    </view>
+     <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.请你在内心最自然、最舒服的状态下和轻松愉快的环境下进行答题。</text>     
+    </view>
+     <view class="cu-item ">
+        <text class="text-black text-bold text-lg" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.在做选择的时候请遵从自己当下內心最真实的情况，而不是去选择自己未来所期待的或别人、社会所期待的情况。</text>     
+    </view>
+    <view class="cu-item ">
+        <text class="text-red text-bold text-lg " decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测试只是参考，绝非决定因素。</text>     
+    </view>
+    <button bindtap="showModal" type="primary" style="width:100%" data-target="DialogModal1">我已认真阅读测评须知并进行下一步</button>
+  </view>
+  <view class="cu-tabbar-height"></view>
+</scroll-view>
+
+<view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
+    <view class="cu-dialog">
+      <view class="cu-bar bg-white justify-end">
+        <view class="content">重要的事要多说一遍</view>
+        <view class="action" bindtap="hideModal">
+          <text class="cuIcon-close text-red"></text>
+        </view>
+      </view>
+      <view class="padding-xl">
+        各位“童鞋”！如果您真的以仔细阅读，那就去做题吧。但不建议中途退出，请坚持到最后！！如果对规则还有些模棱两可，那就回头看看吧。
+      </view>
+      <view class=" bg-white ">
+        <view class="action">
+          <button class="cu-btn bg-green margin-bottom-sm" bindtap="hideModal_">开始测试</button>
+          <button class="cu-btn line-green text-green margin-bottom-sm" bindtap="hideModal">回头再看看</button>
+        </view>
+      </view>
+    </view>
+  </view>

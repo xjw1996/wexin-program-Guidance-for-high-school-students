@@ -1,0 +1,17 @@
+<view> 
+  <video class="video"
+    poster="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2453702494,1579741137&fm=26&gp=0.jpg"
+    src="cloud://xuejingwei-m9vpp.7875-xuejingwei-m9vpp-1302778999/WeChat_20200809165328.mp4"
+    objectFit="cover"
+    controls
+    bindplay="play"
+    bindpause="pause"
+    bindended="ended"
+  ></video>
+</view>
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-content'>
+    <text decode="{{true}}" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一个圆缺了一角，它一边唱着歌一边寻找那失落的一角。有的角太大，有的又太小，它飘洋过海，历经风吹雨打，终于找到了与自己最合适的那一角，它们组成完整的圆，但是圆却发现自己再也无法歌唱，所以它轻轻放下已经寻到的一角，又独自上路继续它寻找的征途…… 这是谢尔·希尔弗斯坦最好的作品之一。它可能是你最快读完的一本书，但恐怕也是得花上一辈子咀嚼的一本书。希尔弗斯坦以最简洁有味的线条和文字，阐释了一则有关"完美" 与"缺憾"的寓言，令人们思索无限。行进中的它，行进中的自己，好不容易追寻到那失落已久的一角，却无法与自己一同前行。该失望？该守候？还是该继续前行？</text>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+
+<image class="tv_show" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/tv/gckc1.png?sign=66c00462a3ae3ceaeca949ad62876a3e&t=1602008587"></image>
+<view wx:for="{{tv}}" wx:key="{{item.viewid}}">
+    <navigator url="../tv/tv_show/tv_show?index={{item.viewid}}">
+        
+        <video class="video" src="{{item.swiper}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+        <view class="cu-bar bg-white margin-bottom-xs">
+          <view class="action">
+            <image class="cu-avatar_ round text-left" src="{{item.icon}}"></image>
+            <text class="margin-left-sm title_1">{{item.message}}</text>
+          </view>
+        </view>
+        
+         
+    </navigator>
+</view>

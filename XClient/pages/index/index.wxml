@@ -1,0 +1,148 @@
+<view class="action">
+    <text class="cuIcon-title text-pink"></text> 
+    <text class="text-black text-bold">高中生涯发展指导生涯测评中心！</text>
+  </view>
+<swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true"   circular="true" autoplay="true" interval="3000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{words}}" wx:key="index" class="{{cardCur==index?'cur':''}}" >
+    <view class="swiper-item"  id='{{index}}' bindtap="swiperclick">
+      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}" ></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </view>
+  </swiper-item>
+</swiper>
+<!-- 轮播图 -->
+<!--推荐测评-->
+
+<view class="action">
+  <button class="cu-btn bg-blue shadow" bindtap="showModal" data-target="DrawerModalL"  style="width:100%">点我查看所有测试！</button>
+</view>
+
+
+<view class="cu-modal drawer-modal justify-start {{modalName=='DrawerModalL'?'show':''}}" bindtap="hideModal">
+    <view class="cu-dialog basis-lg" catchtap style="top:{{CustomBar}}px;height:calc(100vh - {{CustomBar}}px)">
+      <view class="cu-list menu text-left">
+        <view class="customsize arrow" id='{{index}}' bindtap="namelick" wx:for="{{nameList}}" >
+          <view >
+            <view>{{item.name}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+</view>
+
+
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">专业测评</text>
+</view>
+
+
+
+<view class="title_1">
+MBTI职业性格测试
+</view>
+<navigator url="../MBTI_detail/MBTI_detail" class="BTIM_image">
+  <image class="BTIM" src="../../image/ad8.jpg"></image>
+</navigator>
+
+
+<view class="title_2">
+霍兰德兴趣测试
+</view>
+<navigator url="../HuoLanDe/HuoLanDe">
+  <image class="HLD" src="../../image/ad9.jpg"></image>
+</navigator>
+
+
+
+<view class="title_3">
+多元智能测试
+</view>
+<navigator url="../DuoZhiYuan/start_des/start_des">
+  <image class="DYZ" src="../../image/ad10.jpg"></image>
+</navigator>
+
+<!-- <view class="title_3">
+学科测试
+</view>
+<navigator url="../XUEKE/XUEKE">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/xueke.jpg?sign=94f00961597f9f97d97019a5cc0d348a&t=1601981522"></image>
+</navigator> -->
+
+<view class="title_3">
+盖洛普优势测评
+</view>
+<navigator url="../gailuopu/gailuopu">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/gailuopu.jpg?sign=6b61d1ef8561769174e863e5aec96923&t=1601981615"></image>
+</navigator>
+
+<view class="title_3">
+意志力测试
+</view>
+<navigator url="../seven_test/yizhili/yizhili">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/yizhili.jpg?sign=495f13fa77a0e2673241f7a39aed6a0b&t=1601981683"></image>
+</navigator>
+
+<view class="title_3">
+自控力测试
+</view>
+<navigator url="../seven_test/zikongli/zikongli">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/zikongli.jpg?sign=c24227de085346269213d1658c9ceda7&t=1601981811"></image>
+</navigator>
+
+<view class="title_3">
+你会提问吗？
+</view>
+<navigator url="../seven_test/Are_youquestion/Are_youquestion">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/question.jpg?sign=4f5aa0be26e9404f8c16b7113628da95&t=1601981891"></image>
+</navigator>
+
+<view class="title_3">
+七个习惯测评
+</view>
+<navigator url="../seven_test/seven_XG/seven_XG">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/habit.jpg?sign=e01d8076f7a2e309e2d6afef4a3930b8&t=1601982108"></image>
+</navigator>
+
+<view class="title_3">
+感恩水平测试
+</view>
+<navigator url="../seven_test/ganen/ganen">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/feel_grateful.jpg?sign=8c6b0aec57635948e01033b354af1faf&t=1601982212"></image>
+</navigator>
+
+<view class="title_3">
+责任心测评
+</view>
+<navigator url="../seven_test/duty/duty">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/responsibility.png?sign=cd7d87ce8c5fdd8e75d54974a2a7c60f&t=1601982327"></image>
+</navigator>
+
+<view class="title_3">
+自信心测试
+</view>
+<navigator url="../seven_test/confident_/confident_">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/self-confident.jpg?sign=14db86030421a3040e754f578b2eb2e9&t=1601982418"></image>
+</navigator>
+
+<view class="title_3">
+职业锚测试
+</view>
+<navigator url="../seven_test/ocu_anchor/ocu_anchor">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/anchor.jpg?sign=2d48dafa8b3c42799f41de2727a4bbe9&t=1601982479"></image>
+</navigator>
+
+<view class="title_3">
+DISC 职业性格测试
+</view>
+<navigator url="../seven_test/DISC/DISC">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/DISC.jpg?sign=b3b8184e8ca5b666b2283b234bb7070c&t=1601982561"></image>
+</navigator>
+
+
+<view class="title_3">
+  职业价值观测试
+</view>
+<navigator url="../ocu_think/ocu_detail/ocu_detail">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/ocupation.jpg?sign=e383dfe62933833b852c446e3edd0386&t=1601982618"></image>
+</navigator>

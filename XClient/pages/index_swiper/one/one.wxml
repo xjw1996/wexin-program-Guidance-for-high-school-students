@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="entry-container">
+  <view class="entry-title">
+    <web-view src="{{words.article}}"></web-view>
+  </view>
+
+</view>

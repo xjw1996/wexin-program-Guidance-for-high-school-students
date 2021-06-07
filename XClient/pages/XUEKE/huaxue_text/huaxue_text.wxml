@@ -1,0 +1,17 @@
+
+<image class="image" style="width:90%" src="{{take_detail[i].s}}"></image>
+<view class="selection_A" bindtap="if_A">
+  <text decode="{{true}}">A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;①</text>
+</view>
+
+<view class="selection_B" bindtap="if_B">
+  <text decode="{{true}}">B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②</text>
+</view>
+
+<view class="selection_C" bindtap="if_C">
+  <text decode="{{true}}">C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③</text>
+</view>
+
+<view class="selection_D" bindtap="if_D">
+  <text decode="{{true}}">D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;④</text>
+</view>

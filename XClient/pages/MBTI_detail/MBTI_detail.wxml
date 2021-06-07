@@ -1,0 +1,41 @@
+
+<view class="bg-gradual-blue padding-sm radius  shadow-blur text-center">
+  <text class="text-xxl padding">MBTI职业性格测试</text>
+  <view class="padding text-content text-left text-lg">
+    <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;MBTI职业性格测试是国际最为流行的职业人格评估工具，作为一种对个性的判断和分析，是一个理论模型，从纷繁复杂的个性特征中，归纳提炼出4个关键要素——动力、信息收集、决策方式、生活方式，进行分析判断，从而把不同个性的人区别开来。</text> 
+  </view>
+</view>
+<button class="MBTI_BUTTON" bindtap="hld_MBTI"  type="primary" style="width:100%">开始测试</button>
+
+<view class="action margin-xl">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">背景</text>
+</view>
+
+<view class="margin-customsize_sed  text-left text-lg">
+    <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;从古希腊、古印度的哲学家，远至公元前 450 年的希普克里兹（Hippocrates），到中世纪的帕拉萨尔斯（Paracelsus），早已注意到所有的人可以归纳为四种：概念主义者，经验主义者，理想主义者和传统主义者。同一种类型的人的性情具有惊人的相似之处。 1921 年，心理学家荣格（Carl Jung），弗洛伊德的正宗门徒，发表了他经典的心理学类型学说。他在书中设计了一套性格差异理论，他相信性格差异同时会决定并限制一个人的判断。他把这种差异分为内向性 / 外向性，直觉性 / 感受性和思考型 / 感觉型。同时，他认为这些差异是与生俱来的，并且在一个人的一生中相对固定。 Jung 把感知和判断列为脑的两大基本功能，前者帮助我们从外部世界获取信息，后者则使我们以特定的方式做出决定。它们在大脑活动中的作用受到各人生活方式和精力来源的节制，从而对人的外部行为和态度产生各不相同的影响。正是在这个意义上，性格被视为一种人与生俱来的天性。 20 世纪 40 年代，美国一对母女在荣格的心理学类型理论的基础上提出了一套个性测验模型。伊莎贝尔・迈尔斯（Isabel Myers）和凯瑟琳・布里格斯（Katharine Briggs）把这套理论模型以她们的名字命名，叫作 Myers-Briggs 类型指标 MBTI。Myers-Briggs Type Indicator（MBTI）：作为一种对个性的判断和分析，是一个理论模型，从纷繁复杂的个性特征中，归纳提炼出 4 个关键要素 — 动力、信息收集、决策方式、生活方式，进行分析判断，从而把不同个性的人区别开来。MBTI 人格分类模型和理论的意义在于 “解释人与人之间的差异现象” 以及优化决策，对决策流程 “进行理性的干预”。 心理学家大卫。凯尔西（David Keirsey）发现，这些由不同文化背景和不同历史时期的人各自独立研究得出的 4 种不同性情的划分，对性格的描绘有着惊人的相似。</text> 
+</view>
+
+
+
+<button class="MBTI_BUTTON" bindtap="showModal"  type="primary" style="width:100%" data-target="DialogModal1">我已认真阅读测评须知并进行下一步</button>
+<view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">重要的事要多说一遍</view>
+      <view class="action" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl">
+      各位“童鞋”！如果您真的以仔细阅读，那就去做题吧。但不建议中途退出，请坚持到最后！！如果对规则还有些模棱两可，那就回头看看吧。
+    </view>
+    <view class=" bg-white ">
+      <view class="action">
+        <button class="cu-btn bg-green margin-bottom-sm" bindtap="hideModal_">开始测试</button>
+        <button class="cu-btn line-green text-green margin-bottom-sm" bindtap="hideModal">回头再看看</button>
+      </view>
+    </view>
+  </view>
+</view>
+

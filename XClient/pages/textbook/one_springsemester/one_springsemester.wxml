@@ -1,0 +1,63 @@
+
+<scroll-view scroll-y class="scrollPage">
+
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">1.第四轮学科评估 A+ 专业及所在院校</text>
+  </view>
+  <navigator url="../../caijing/caijing">
+    <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/subject.jpg?sign=09ba1d005784297cb9e35e6945d95449&t=1601983135"></image>
+  </navigator>
+
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">2.DISC职业性格测试</text>
+  </view>
+<navigator url="../../seven_test/DISC/DISC">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/DISC.jpg?sign=da9c6fcddf23a54d99089cb09d28d2a7&t=1601983172"></image>
+</navigator>
+
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">3.从行业到行业院校</text>
+  </view>
+  <navigator url="../../hangye/hangye">
+    <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/gsvshc/real_study.jpg?sign=f62d42302628677b63e77798f42580b3&t=1602165783"></image>
+  </navigator>
+
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">4.普鲁斯特问卷</text>
+  </view>
+<navigator url="../../pulusi/pulusi">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/gsvshc/pulusi.png?sign=d6ef94a053789a4472e3b37cad1e2132&t=1602165980"></image>
+</navigator>
+
+<view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">5.职业价值观测试</text>
+  </view>
+<navigator url="../../ocu_think/ocu_detail/ocu_detail">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/ocupation.jpg?sign=4cf027e819e6f6d06f4844aba98ff192&t=1601983225"></image>
+</navigator>
+
+<view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">6.职业锚测试</text>
+  </view>
+<navigator url="../../seven_test/ocu_anchor/ocu_anchor">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/anchor.jpg?sign=c09378eac5d643a457cf04ebcd1db9cd&t=1601983247"></image>
+</navigator>
+
+
+
+  <view class="space">.</view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+
+  <button class="MBTI_BUTTON" bindtap="hld_MBTI"  type="primary" style="width:100%" >返回首页看更多精彩内容</button>
+</scroll-view>

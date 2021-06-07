@@ -1,0 +1,168 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/MBTI_detail/MBTI_detail",
+    "pages/HuoLanDe/HuoLanDe",
+    "pages/DuoZhiYuan/DuoZhiYuan",
+    "pages/wavepage/waveoage",
+    "pages/start_hld/start_hld",
+    "pages/start_hld/h_report/h_report",
+    "pages/start_MBTI/start_MBTI",
+    "pages/start_MBTI/MBTI_report/MBTI_report",
+    "pages/DuoZhiYuan/DYZ_report/DYZ_report",
+    "pages/about_jing/about_jing",
+    "pages/classification/classification",
+    "pages/211985/211985",
+    "pages/c9/c9",
+    "pages/34/34",
+    "pages/985/985",
+    "pages/shifan/shifan",
+    "pages/211/211",
+    "pages/caijing/caijing",
+    "pages/nonglin/nonglin",
+    "pages/yilei/yilei",
+    "pages/minzu/minzu",
+    "pages/jianshebing/jianshebing",
+    "pages/gesheng/gesheng",
+    "pages/jianzhu/jianzhu",
+    "pages/zhongjian/zhongjian",
+    "pages/guofang/guofang",
+    "pages/liangdian/liangdian",
+    "pages/liangcai/liangcai",
+    "pages/jiaoyubu/jiaoyubu",
+    "pages/huadong/huadong",
+    "pages/sanli/sanli",
+    "pages/wuxiao/wuxiao",
+    "pages/sidayi/sidayi",
+    "pages/qidashi/qidashi",
+    "pages/college/beijing/beijing",
+    "pages/college/beijing/beijing/about/about",
+    "pages/college/beijing/beijing/BD_detail/BD_detail",
+    "pages/XUEKE/XUEKE",
+    "pages/XUEKE/lishi/lishi",
+    "pages/XUEKE/lishi_result/lishi_result",
+    "pages/XUEKE/zhengzhi/zhengzhi",
+    "pages/XUEKE/zhengzhi_text/zhengzhi_text",
+    "pages/XUEKE/zhengzhi_result/zhengzhi_result",
+    "pages/XUEKE/start_lishi/start_lishi",
+    "pages/XUEKE/huaxue/huaxue",
+    "pages/XUEKE/huaxue_text/huaxue_text",
+    "pages/XUEKE/huaxue_result/huaxue_result",
+    "pages/XUEKE/shengwu/shengwu",
+    "pages/XUEKE/shengwu_text/shengwu_text",
+    "pages/XUEKE/shengwu_result/shengwu_result",
+    "pages/ceping_report/ceping_report",
+    "pages/ceping_report/shengwu_history/shengwu_history",
+    "pages/ceping_report/huaxue_history/huaxue_history",
+    "pages/ceping_report/lishi_history/lishi_history",
+    "pages/ceping_report/zhengzhi_history/zhengzhi_history",
+    "pages/gailuopu/gailuopu",
+    "pages/gailuopu/test/test",
+    "pages/gailuopu/test_result/test_result",
+    "pages/DuoZhiYuan/start_des/start_des",
+    "pages/seven_test/yizhili/yizhili",
+    "pages/seven_test/yizhili/yizhili_test/yizhili_test",
+    "pages/seven_test/yizhili/yizhili_report/yizhili_report",
+    "pages/seven_test/zikongli/zikongli",
+    "pages/seven_test/zikongli/zikongli_test/zikongli_test",
+    "pages/seven_test/zikongli/zikongli_report/zikongli_report",
+    "pages/seven_test/Are_youquestion/Are_youquestion",
+    "pages/seven_test/Are_youquestion/Are_youquestion_test/Are_youquestion_test",
+    "pages/seven_test/Are_youquestion/Are_youquestion_report/Are_youquestion_report",
+    "pages/seven_test/seven_XG/seven_XG",
+    "pages/seven_test/seven_XG/seven_XG_test/seven_XG_test",
+    "pages/seven_test/seven_XG/seven_XG_report/seven_XG_report",
+    "pages/seven_test/ocu_anchor/ocu_anchor",
+    "pages/seven_test/ocu_anchor/ocu_anchor_test/ocu_anchor_test",
+    "pages/seven_test/ocu_anchor/ocu_anchor_report/ocu_anchor_report",
+    "pages/seven_test/ganen/ganen",
+    "pages/seven_test/ganen/ganen_test/ganen_test",
+    "pages/seven_test/ganen/ganen_report/ganen_report",
+    "pages/seven_test/duty/duty",
+    "pages/seven_test/duty/duty_test/duty_test",
+    "pages/seven_test/duty/duty_report/duty_report",
+    "pages/seven_test/confident_/confident_",
+    "pages/seven_test/confident_/confident_test_/confident_test_",
+    "pages/seven_test/confident_/confident_report_/confident_report_",
+    "pages/seven_test/DISC/DISC",
+    "pages/seven_test/DISC/DISC_test_/DISC_test_",
+    "pages/seven_test/DISC/DISC_R/DISC_R",
+    "pages/textbook/one_fallsemester/one_fallsemester",
+    "pages/textbook/one_springsemester/one_springsemester",
+    "pages/textbook/two_fallsemester/two_fallsemester",
+    "pages/textbook/two_springsemester/two_springsemester",
+    "pages/textbook/one_fallsemester/video_one/video_one",
+    "pages/ocu_think/ocu_think",
+    "pages/ocu_think/ocu_detail/ocu_detail",
+    "pages/ocu_think/ocu_report/ocu_report",
+    "pages/detail/detail",
+    "pages/index_swiper/one/one",
+    "pages/211985/time_ma/time_ma",
+    "pages/211/emotion/emotion",
+    "pages/tv/tv",
+    "pages/tv/tv_show/tv_show",
+    "pages/hangye/hangye",
+    "pages/pulusi/pulusi"
+    
+
+
+
+
+
+    
+
+    
+
+
+
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTitleText": "高中生涯发展指导",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "color": "#cdcdcd",
+    "selectedColor": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/image/icon/s2.png",
+        "selectedIconPath": "/image/icon/s1.png"
+      },{
+        "pagePath": "pages/classification/classification",
+        "text": "分类",
+        "iconPath": "/image/icon/f1.png",
+        "selectedIconPath": "/image/icon/classification.png"
+      },{
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "/image/icon/x1.png",
+        "selectedIconPath": "/image/icon/x2.png"
+      },{
+        "pagePath": "pages/tv/tv",
+        "text": "高考视讯",
+        "iconPath": "/image/icon/grenn_red.png",
+        "selectedIconPath": "/image/icon/video.png"
+      },{
+        "pagePath": "pages/user/user",
+        "text": "我",
+        "iconPath": "/image/icon/my1.png",
+        "selectedIconPath": "/image/icon/my2.png"
+      }
+    ]
+  }, 
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "debug": true,
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

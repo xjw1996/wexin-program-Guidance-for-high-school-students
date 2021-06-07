@@ -1,0 +1,19 @@
+@import "../../../colorui/animation.wxss";
+.MBTI_1{
+  height: 150rpx;
+}
+.fixed_buttom{
+  height: 60rpx;
+  line-height: 70rpx;
+  background-color: rgb(99, 236, 152);
+  color: white;
+  border-radius: 98rpx;
+  }
+
+
+  .MBTI_BUTTON{
+    position: fixed;
+    bottom: 0;
+    height: 100rpx;
+    text-align: center; 
+  }

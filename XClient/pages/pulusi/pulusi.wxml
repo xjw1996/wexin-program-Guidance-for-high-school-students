@@ -1,0 +1,5 @@
+<view class="entry-container">
+  <view class="entry-title">
+    <web-view src="https://mp.weixin.qq.com/s?__biz=Mzg4MzUwNjE5NA==&mid=2247484027&idx=1&sn=7270fc12caf892c2aa7ff78122cabe94&chksm=cf472f06f830a61087d70fbf820dff435a9fcdb709abca69af867c5cefa4005c5aacaad6872d&mpshare=1&scene=1&srcid=1008ynOusD4oPKyZHoI1hWbA&sharer_sharetime=1602165227075&sharer_shareid=b0e20b7d449718bd7700c4047a302079#rd"></web-view>
+  </view>
+</view>

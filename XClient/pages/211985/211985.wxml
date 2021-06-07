@@ -1,0 +1,18 @@
+
+<view class="question_detai" decode="{{true}}" >{{queslist[n].question}}</view>
+
+<view class="selection_A text-center" bindtap="if_A">
+  <text>经常</text>
+</view>
+
+<view class="selection_B text-center" bindtap="if_B">
+  <text>有时</text>
+</view>
+
+<view class="selection_C text-center" bindtap="if_C">
+  <text>很少</text>
+</view>
+
+<view class="selection_D text-center" bindtap="if_D">
+  <text>从不</text>
+</view>

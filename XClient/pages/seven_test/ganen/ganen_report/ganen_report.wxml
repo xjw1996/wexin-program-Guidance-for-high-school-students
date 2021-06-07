@@ -1,0 +1,19 @@
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您的感恩水平测试结果如下</text>
+</view>
+<canvas canvas-id="ringCanvas" disable-scroll="true" class="canvas canvas2"></canvas>
+
+<view class=' bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-black text-bold'>详细说明：</view>
+  <view class='text-content'>
+    
+      <view class='action'>  
+      </view> 
+      <view class="text-lg  padding-left "><text class="text-red text-bold">65-70分 极高的感恩水平:</text>这个分数值的人有能力把生命看成是一份礼物。对你来说，感恩是一种生活方式。</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">59-64分 很高的感恩水平:</text>你在生活里经常表达自己的感恩，你有能力认识到别人是怎么帮助了你。</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">53-58分 较高的感恩水平:</text>你的感恩水平在平均值以上，而且你发现花时间去想值得你感激的事情是比较容易的。</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">46-52分 平均感恩水平:</text>你可能发现当事情进展顺利时，你很容易去感恩。但是也许在困难时期就比较难保持这种感恩的心态。</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">40-45分 平均值以下感恩水平:</text>寻找感恩的理由对你来说还是一件有些困难的事情。生命与其说是礼物，不如说是一种负担，也许你在经历一个低谷期。</view>
+  </view>
+</view>

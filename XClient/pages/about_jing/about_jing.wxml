@@ -1,0 +1,12 @@
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>小程序的技术支持</view>
+  <view class='text-content'>
+    <view>嗨！各位同学！<test>٩(๑❛ᴗ❛๑)۶</test></view>
+    <view class='margin-top-sm'>该项目是由吉林省金升伟生涯教育信息咨询有限公司提供技术支持。</view>
+    <view class='margin-top-sm'>本项目所提供的测试以及在线咨询都是免费的，我们很高兴为各位同学家长服务。</view>
+    <view class='margin-top-sm'>在繁忙的学习生活当中，如果有任何关于高考报考，心理咨询等问题，请不要客气，通过小程序的在线服务功能联系我们，我们会提供力所能及的帮助。</view>
+    <view class='margin-top-sm'>小程序其他更多功能敬请期待！ <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/tv/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20201006212648.png?sign=0e94806ab3cd26886207581202edd712&t=1602146345"></image></view>
+   
+  </view>
+</view>

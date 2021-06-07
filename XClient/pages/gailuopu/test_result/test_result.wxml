@@ -1,0 +1,91 @@
+
+<view class="container">
+  <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}" force-use-old-canvas="true"></ec-canvas>
+</view>
+<view class="space">
+  <view class="grid col-4 ">
+  <view class="padding-sm" wx:for="{{all_arr_array}}" wx:item="item" wx:key="key">
+    <view class="bg-olive">
+      <view class="text-lg text-white text-bold">{{item.name}}       :  {{item.socre}}</view>
+    </view>
+  </view>
+</view>
+</view>
+
+
+<view>
+    <view>
+      <text class="text-black text-bold" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您的盖乐普结果为</text>
+      <text class="text-red text-bold">{{array_[OCU_F].type}}(1)、{{array_[OCU_S].type}}(2)、{{array_[OCU_T].type}}(3)、{{array_[OCU_A].type}}(4)、{{array_[OCU_D].type}}(5)。</text>
+  </view>
+</view>
+
+
+<view class="td">
+  <text class="text-red text-bold">{{array_[OCU_F].type}}</text>
+</view>
+<view >
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">说明：</text>
+</view>
+
+<view class="margin-lr-sm">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{array_[OCU_F].detail}}</text></view>
+</view>
+<view class="td">
+  <text class="text-red text-bold">{{array_[OCU_S].type}}</text>
+</view>
+<view >
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">说明：</text>
+</view>
+
+<view class="margin-lr-sm">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{array_[OCU_S].detail}}</text></view>
+</view>
+
+<view class="td">
+  <text class="text-red text-bold">{{array_[OCU_T].type}}</text>
+</view>
+<view >
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">说明：</text>
+</view>
+
+<view class="margin-lr-sm">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{array_[OCU_T].detail}}</text></view>
+</view>
+
+<view class="td">
+  <text class="text-red text-bold">{{array_[OCU_A].type}}</text>
+</view>
+<view >
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">说明：</text>
+</view>
+
+<view class="margin-lr-sm">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{array_[OCU_A].detail}}</text></view>
+</view>
+
+<view class="td">
+  <text class="text-red text-bold">{{array_[OCU_D].type}}</text>
+</view>
+<view >
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">说明：</text>
+</view>
+
+<view class="margin-lr-sm">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{array_[OCU_D].detail}}</text></view>
+</view>
+
+<view >
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">温馨提示</text>
+</view>
+
+<view class="margin-lr-sm margin-bottom-xl">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;测评结果仅做参考使用，如需深度评估和解析，请联系专业人员。</text></view>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;若对测评有任何建议或意见，请发送邮件至325035619@qq.com，期待与你共成长</text></view>
+</view>

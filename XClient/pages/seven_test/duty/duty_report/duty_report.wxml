@@ -1,0 +1,18 @@
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您的责任心测试结果如下</text>
+</view>
+<canvas canvas-id="ringCanvas" disable-scroll="true" class="canvas canvas2"></canvas>
+
+<view class=' bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-black text-bold'>详细说明：</view>
+  <view class='text-content'>
+    
+      <view class='action'>  
+      </view> 
+      <view class="text-lg  padding-left "><text class="text-red text-bold">81-100分 :</text>被测评人是个非常有责任心的人。做事投入，对自己要求很高，工作细致、认真，遵守时间，顾全大局。但因追求完美而过分扩大自己的责任感，不一定快乐、开朗。建议在保持责任心的同时，对自己宽容一点，让自己放松一些。</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">61-80分 :</text>被测评人是个比较有责任心的人。做事能够认真负责，总体上讲能够出色地完成各项工作，但并不过分追求完美，能够很好地把握工作与生活。</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">41-60分 :</text>被测评人的责任心一般。在自己力所能及的情况下，能够完成工作，但不够投入，遇到困难的任务，则有可能退缩。</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">20-40分 :</text>被测评人的责任心较差。凡事都无所谓，追求自己生活的轻松，工作容易受情绪的影响。</view>
+  </view>
+</view>

@@ -1,0 +1,63 @@
+<scroll-view scroll-y class="scrollPage">
+  <view class="bg-gradual-blue padding-sm radius  shadow-blur text-center">
+    <text class="text-xxl padding">多元智能测评</text>
+    <view class="padding-top  text-content text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;1.多元智能是美国哈佛大学教授、世界著名发展心理学家和教育学家霍华德·加德纳（Howard earl  Gardner）所提岀的概念和理论，抨击了传统智力理论对语文和逻辑推理能力的过分关注，提出智力必须与生活相关，应该是在某一特定文化环境和社会中个体所展现出的解决问题或创造生产的能力。</text> 
+    </view>
+    <view class="text-content text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;2.霍华德·加德纳认为人类至少有八种智能，即语言智能、数理逻辑智能、视觉空间智能、身体运动智能、音乐智能、人际智能、内省智能和自然智能。</text> 
+    </view>
+    <view class="text-content text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;3.由于多元智能理论的提出，霍华德·加德纳被哈佛商学院称为“加德纳是本时代最明亮的巨星之”，被美国特质教学联盟称为“推动美国教育改革的首席学者。”</text> 
+    </view>
+    <view class="text-content text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;4.通过本测评，可以看到自己独一无二的多元智能光谱，进一步探索到自己的优势智能和劣势智能，为自己的生涯发展提供一项重要的参考。</text> 
+    </view>
+  </view>
+  <button class="MBTI_BUTTON" bindtap="showModal"  type="primary" style="width:100%" data-target="DialogModal1">我已认真阅读测评须知并进行下一步</button>
+  <view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
+    <view class="cu-dialog">
+      <view class="cu-bar bg-white justify-end">
+        <view class="content">重要的事要多说一遍</view>
+        <view class="action" bindtap="hideModal">
+          <text class="cuIcon-close text-red"></text>
+        </view>
+      </view>
+      <view class="padding-xl">
+        各位“童鞋”！如果您真的以仔细阅读，那就去做题吧。但不建议中途退出，请坚持到最后！！如果对规则还有些模棱两可，那就回头看看吧。
+      </view>
+      <view class=" bg-white ">
+        <view class="action">
+          <button class="cu-btn bg-green margin-bottom-sm" bindtap="hideModal_">开始测试</button>
+          <button class="cu-btn line-green text-green margin-bottom-sm" bindtap="hideModal">回头再看看</button>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="action margin-xl">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">测评须知</text>
+  </view>
+
+  <view class="margin-customsize_sed  text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;1.本测评共计80道题，大约需要5-10分钟。</text> 
+  </view>
+
+  <view class="margin-customsize_sed  text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;2.测评时凭第一印象在每一题的1~5分中快速选择作即可。</text> 
+  </view>
+  <view class="margin-customsize_sed  text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;3.任何一个结果均没有好坏之分，只会发现你的与众不同。</text> 
+  </view>
+  <view class="margin-customsize_sed  text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;5.在做选择的时候请遵从自己当下內心最真实的情况，而不是去选择自己未来所期待的或别人、社会所期待的情况。</text> 
+  </view>
+  <view class="margin-customsize_sed  text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;6.测评结果仅做参考使用。</text> 
+  </view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+</scroll-view>
+

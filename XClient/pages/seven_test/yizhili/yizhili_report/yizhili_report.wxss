@@ -1,0 +1,7 @@
+.canvas {
+  width: 800rpx;
+  height: 600rpx;
+}
+.canvas2{
+height: 400rpx;
+}

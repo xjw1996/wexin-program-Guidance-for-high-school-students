@@ -1,0 +1,10 @@
+<view class="col-2 padding-xs">
+  <view class="padding-xs">
+    <view wx:for="{{horizontal}}" wx:item="item" wx:key="key" class="bg-gradual-blue padding-sm radius margin-top shadow-blur">
+      <navigator url="{{item.src}}" class="BTIM_image">
+        <image class="cu-avatar round text-left" src="{{item.url}}"></image>
+        <view class="text-xxl content_position padding-left ">{{item.name}}</view>
+      </navigator>
+    </view>
+  </view>
+</view>

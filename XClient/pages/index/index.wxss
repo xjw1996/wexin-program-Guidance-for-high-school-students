@@ -1,0 +1,126 @@
+@import "../../colorui/animation.wxss";
+page{
+  height: 100%;
+  -webkit-overflow-scrolling : touch;
+}
+.top_white{
+  width:400px;
+  height: 10px;
+  background-color: white;
+}
+/* 轮播图 */
+.swiper-container{
+  width: 90%;
+  height: 280rpx;/*rps 是手机像素，可以根据屏幕的宽度进行自适应*/
+  margin: 0rpx auto;
+position: relative;
+  border-radius: 15rpx;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper{
+  width: 100%;
+  height: 100%;
+  border-radius: 15rpx;
+}
+.swiperItem{
+  width: 100%;
+  height: 100%;
+  border-radius: 15rpx;
+}
+.swiperItem>image{
+  width: 100%;
+  height: 100%;
+  border-radius: 15rpx;
+}  
+.dots{
+  width: auto;
+  height: 10rpx;
+  position: absolute;
+  bottom: 20rpx;
+  border-radius: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rpx 10rpx;
+}
+.tvjm_white{
+  width:400px;
+  height: 10px;
+  background-color: white;
+}
+.sub_tvjm_white{
+  width:400px;
+  height: 5px;
+  background-color: white;
+}
+.BTIM{
+  width:90%;
+  height:150px;
+  margin:5rpx 40rpx 15rpx 40rpx;
+  border-radius:20rpx;
+  overflow: hidden;
+}
+.tuijian test.ico{
+  color: rgb(241, 44, 44);
+}
+
+.tuijian text.font{
+  font-style: unset;
+  font-weight:900;
+  font-family: 楷体;
+}
+.title_1{
+  font-size: 100%;
+  text-align: center;
+  color: rgb(24, 2, 73);
+  font-weight:700;
+  font-family: 楷体;
+}
+.title_2{
+  font-size: 100%;
+  text-align: center;
+  font-weight:700;
+  color: rgb(24, 2, 73);
+  font-family: 楷体;
+}
+.HLD{
+  width:90%;
+  height:150px;
+  margin:5rpx 40rpx 20rpx 40rpx;
+  border-radius:20rpx;
+  overflow: hidden;
+}
+
+.title_3{
+  font-size: 100%;
+  text-align: center;
+  font-weight:700;
+  color: rgb(24, 2, 73);
+  font-family: 楷体;
+}
+
+.DYZ{
+  width:90%;
+  height:150px;
+  margin:5rpx 40rpx 20rpx 40rpx;
+  border-radius:20rpx;
+  overflow: hidden;
+}
+
+.xueke{
+  width:90%;
+  height:150px;
+  margin:5rpx 40rpx 20rpx 40rpx;
+  border-radius:20rpx;
+  overflow: hidden;
+}
+
+.customsize{
+  text-align: center;
+  height: 80rpx;
+  line-height: 100rpx;
+  border-bottom: 2rpx solid #CCC;
+}

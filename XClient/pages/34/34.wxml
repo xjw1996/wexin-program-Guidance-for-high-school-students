@@ -1,0 +1,22 @@
+ <view> 
+  <video class="video"
+    poster="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591720394065&di=6167c7505bbecc513ac05906058224d6&imgtype=0&src=http%3A%2F%2Fi2.hexun.com%2F2020-05-14%2F201338540.jpg"
+    src="cloud://xuejingwei-m9vpp.7875-xuejingwei-m9vpp-1302778999/20200406_1714f887d8c_r2_1200k.mp4"
+    objectFit="cover"
+    controls
+    bindplay="play"
+    bindpause="pause"
+    bindended="ended"
+  ></video>
+</view>
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-content'>
+    <text decode="{{true}}" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国教育报-中国教育新闻网讯（记者 蒋亦丰）医务人员、社区保安、环卫工人……在抗击疫情的过程中，他们都留下了最美瞬间。杭州高中生蒋昕昀用自己的镜头悉心捕捉，并制作成一部双语纪录片《“00后”高中生的杭州抗“疫”日记》。近期，该纪录片被国内外媒体转发后，累计关注人数超过百万。</text>
+  </view>
+</view>
+
+
+
+
+

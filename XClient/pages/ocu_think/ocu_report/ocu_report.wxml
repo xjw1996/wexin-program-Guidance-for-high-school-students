@@ -1,0 +1,9 @@
+<!--pages/ocu_think/ocu_report/ocu_report.wxml-->
+<view class="action">
+    <text class="cuIcon-title text-pink"></text> 
+    <text class="text-black text-bold">您的职业价值观测试结果为：</text>
+  </view>
+<view class="container">
+  <ec-canvas id="mychart-dom-multi-bar" canvas-id="mychart-multi-bar" ec="{{ ec }}" force-use-old-canvas="true"></ec-canvas>
+  <ec-canvas id="mychart-dom-multi-scatter" canvas-id="mychart-multi-scatter" ec="{{ ec2}}" force-use-old-canvas="true"></ec-canvas>
+</view>

@@ -1,0 +1,17 @@
+
+<view class="action">
+  <button class="cu-btn bg-green shadow" bindtap="showModal" data-target="DrawerModalL">Left</button>
+</view>
+
+<view class="cu-modal drawer-modal justify-start {{modalName=='DrawerModalL'?'show':''}}" bindtap="hideModal">
+  <view class="cu-dialog basis-lg" catchtap style="top:{{CustomBar}}px;height:calc(100vh - {{CustomBar}}px)">
+    <view class="cu-list menu text-left">
+      <view class="cu-item arrow" id='{{index}}' bindtap="swiperclick" wx:for="{{swiperList}}" wx:key>
+        <view >
+          <view>{{item.name}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+

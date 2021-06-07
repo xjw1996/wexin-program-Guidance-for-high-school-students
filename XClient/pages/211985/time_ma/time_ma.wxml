@@ -1,0 +1,17 @@
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您的时间管理测评结果如下</text>
+</view>
+<canvas canvas-id="ringCanvas" disable-scroll="true" class="canvas canvas2"></canvas>
+
+<view class=' bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-black text-bold'>详细说明：</view>
+  <view class='text-content'>
+    
+      <view class='action'>  
+      </view> 
+      <view class="text-lg  padding-left "><text class="text-red text-bold">45~60分 :</text>你自己对时间并无计划，而是经常让别人牵着鼻子走，你不能再采取被动的态度，要马上对自己的学习或工作采取优先秩序的管理方法。</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">30~45分 :</text>你也许过于重视对事情做出迅速处理，而忽略了思考哪些事是重要的，不要把“紧急的”与“重要的”混淆起来。不要被外界的干扰所影响，如果你不能完成必须完成的事，你决不会因为迅速处理了不重要的小事而提高工作效率。 </view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">15~30分 :</text>祝贺你，你知道如何分清事情的缓急，这使你能集中精力、提高效率。你已成为时间管理的高手，你可以向周围的人分享你的时间管理经验。</view>
+  </view>
+</view>

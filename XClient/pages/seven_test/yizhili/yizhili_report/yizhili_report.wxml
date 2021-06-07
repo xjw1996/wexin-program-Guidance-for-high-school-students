@@ -1,0 +1,19 @@
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您的意志力水平测试结果如下</text>
+</view>
+<canvas canvas-id="ringCanvas" disable-scroll="true" class="canvas canvas2"></canvas>
+
+<view class=' bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-black text-bold'>详细说明：</view>
+  <view class='text-content'>
+    
+      <view class='action'>  
+      </view> 
+      <view class="text-lg  padding-left "><text class="text-red text-bold">81—100分 :</text>意志很坚强</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">61—80分 :</text>意志较坚强</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">41—60分 :</text>意志力一般</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">21—40分 :</text>意志较薄弱</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">41—60分 :</text>意志很薄弱</view>
+  </view>
+</view>

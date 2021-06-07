@@ -1,0 +1,54 @@
+<scroll-view scroll-y class="scrollPage">
+  <view class="bg-gradual-blue padding-sm radius  shadow-blur text-center">
+    <text class="text-xxl padding">职业价值观测试</text>
+    <view class="padding-top  text-content text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;职业价值观是人们对职业的总体认识，是一种基于社会层面的意识形态。是价值观在职业选择和职业评价过程中的体现，是人们在职业认知、职业判断、职业选择价值取向。职业价值观的内容体现在职业价值目标（职业价值取向）、职业选择倾向和职业价值评价几个方面。包括职业认知、职业动机、职业理想、职业能力、职业期望、职业岗位、职业选择行为、职业评价标准等。下面这份测试题是美国心理学家舒伯编制的，用来测量职业价值观。量表将职业价值观分为三个维度 ：一是内在价值观，即与职业性质本身有关的因素；二是外在价值观，即与职业性质有关的外在因素；三是外在报酬，共计13个因素 ：利他主义、美感、智力刺激、成就感、独立性、社会地位、管理权、经济报酬、社会交往、安全感、舒适、人际关系、变异性（或追求新意）。</text> 
+    </view>
+  </view>
+  <button class="MBTI_BUTTON" bindtap="showModal"  type="primary" style="width:100%" data-target="DialogModal1">我已认真阅读测评须知并进行下一步</button>
+  <view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
+    <view class="cu-dialog">
+      <view class="cu-bar bg-white justify-end">
+        <view class="content">重要的事要多说一遍</view>
+        <view class="action" bindtap="hideModal">
+          <text class="cuIcon-close text-red"></text>
+        </view>
+      </view>
+      <view class="padding-xl">
+        各位“童鞋”！如果您真的以仔细阅读，那就去做题吧。但不建议中途退出，请坚持到最后！！如果对规则还有些模棱两可，那就回头看看吧。
+      </view>
+      <view class=" bg-white ">
+        <view class="action">
+          <button class="cu-btn bg-green margin-bottom-sm" bindtap="hideModal_">开始测试</button>
+          <button class="cu-btn line-green text-green margin-bottom-sm" bindtap="hideModal">回头再看看</button>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="action margin-xl">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">测评须知</text>
+  </view>
+
+  <view class="margin-customsize_sed  text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;1.本测评有52个对职业的期望，请为每题选择一个代表你真实想法的选项，对待测评的态度可能会影响测评结果的准确性，需要你平静而认真的做出选择。</text> 
+  </view>
+
+  <view class="margin-customsize_sed  text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;2.测评中的任何一道题都没有好坏之分，请按照自己的真实感受作答。</text> 
+  </view>
+  <view class="margin-customsize_sed  text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;3. 请在答题时遵循自己内心的选择，而不是自己的期望或别人的期望。</text> 
+  </view>
+  <view class="margin-customsize_sed  text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;4.本测评大约需要10-20分钟，请一次性完成，而不是被中途打断后接着答题。</text> 
+  </view>
+  <view class="margin-customsize_sed  text-left text-lg">
+      <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;6.测评结果仅做参考使用。</text> 
+  </view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+</scroll-view>
+

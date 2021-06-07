@@ -1,0 +1,17 @@
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您的提问能力水平测试结果如下</text>
+</view>
+<canvas canvas-id="ringCanvas" disable-scroll="true" class="canvas canvas2"></canvas>
+
+<view class=' bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-black text-bold'>详细说明：</view>
+  <view class='text-content'>
+    
+      <view class='action'>  
+      </view> 
+      <view class="text-lg  padding-left "><text class="text-red text-bold">24 分以上 :</text>提问能力一般</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">15-24分 :</text>提问能力一般</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">15分以下 :</text>提问能力一般</view>
+  </view>
+</view>

@@ -1,0 +1,26 @@
+
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您的七个习惯测试结果如下</text>
+</view>
+<view class="container">
+  <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}" force-use-old-canvas="true"></ec-canvas>
+</view>
+
+<view class="space">
+  <view class=' bg-white padding-xl radius shadow-lg'>
+    <view class='text-center margin-bottom text-lg  text-black text-bold'>详细说明：</view>
+    <view class='text-content'>
+      
+        <view class='action'>  
+        </view> 
+        <view class="text-lg  padding-left "><text class="text-black text-bold">以上7个习惯的成绩，分别参照以下几个档次</text></view>
+        <view class="text-lg  padding-left "><text class="text-red text-bold">杰出：16-18分</text></view>
+        <view class="text-lg  padding-left "><text class="text-red text-bold">很好：13-15分</text></view>
+        <view class="text-lg  padding-left "><text class="text-red text-bold">好：10-12分</text></view>
+        <view class="text-lg  padding-left "><text class="text-red text-bold">不错：7-9</text></view>
+        <view class="text-lg  padding-left "><text class="text-red text-bold">差：4-6</text></view>
+        <view class="text-lg  padding-left "><text class="text-red text-bold">极差：1-3</text></view>
+    </view>
+  </view>
+</view>

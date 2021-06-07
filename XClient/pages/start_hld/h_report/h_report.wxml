@@ -1,0 +1,65 @@
+<!--pages/start_hld/h_report/h_report.wxml-->
+<view class="container">
+  <ec-canvas id="mychart-dom-multi-bar" canvas-id="mychart-multi-bar" ec="{{ ec }}" force-use-old-canvas="true"></ec-canvas>
+  <ec-canvas id="mychart-dom-multi-scatter" canvas-id="mychart-multi-scatter" ec="{{ ec2}}" force-use-old-canvas="true"></ec-canvas>
+</view>
+
+<view class="space">
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">{{OCU_F.type}}</text>
+</view>
+
+<view class="margin-lr-sm">
+  <text class="text-pink text-bold">共同特点</text>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{OCU_F.common}}</text></view>
+</view>
+
+<view class="margin-lr-sm">
+  <text class="text-pink text-bold">典型职业</text>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{OCU_F.occupation}}</text></view>
+</view>
+
+
+<view >
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">{{OCU_S.type}}</text>
+</view>
+
+<view class="margin-lr-sm">
+  <text class="text-pink text-bold">共同特点</text>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{OCU_S.common}}</text></view>
+</view>
+
+<view class="margin-lr-sm">
+  <text class="text-pink text-bold">典型职业</text>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{OCU_S.occupation}}</text></view>
+</view>
+
+
+<view >
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">{{OCU_T.type}}</text>
+</view>
+
+<view class="margin-lr-sm">
+  <text class="text-pink text-bold">共同特点</text>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{OCU_T.common}}</text></view>
+</view>
+
+<view class="margin-lr-sm">
+  <text class="text-pink text-bold">典型职业</text>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{OCU_T.occupation}}</text></view>
+</view>
+
+<view >
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">温馨提示</text>
+</view>
+
+<view class="margin-lr-sm margin-bottom-xl">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;兴趣是专业、职业选择中需要参考的重要方面之一，若要全面分析还要结合非正式评估以及性格、多元智能、价值观等综合评估。</text></view>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本测评结果仅供参考使用，切记，任何人都可以做任何职业。但需注意的是如果顺着自己的兴趣前进，很容易找到成就感。</text></view>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如对本报告或本次咨询有任何疑问和建议，请发送邮件至325035619@qq.com。</text></view>
+</view>
+
+

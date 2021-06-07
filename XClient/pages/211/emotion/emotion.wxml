@@ -1,0 +1,17 @@
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您的时间管理测评结果如下</text>
+</view>
+<canvas canvas-id="ringCanvas" disable-scroll="true" class="canvas canvas2"></canvas>
+
+<view class=' bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-black text-bold'>详细说明：</view>
+  <view class='text-content'>
+    
+      <view class='action'>  
+      </view> 
+      <view class="text-lg  padding-left "><text class="text-red text-bold">0~6分 :</text>表明你的情绪不稳定，经常患得患失，所以要小心了，如果你是这样的，可能应该去找朋友或专家谈谈。</view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">7~9分 :</text>情绪稳定性一般，缺乏情绪管理的能力，需要借助相关课程或者书籍进行改变。 </view>
+      <view class="text-lg  padding-left "><text class="text-red text-bold">10~15分 :</text>情绪管理能力很好，有较强的自我反省能力，能很好地处理一些事情。</view>
+  </view>
+</view>

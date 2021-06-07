@@ -1,0 +1,42 @@
+
+<scroll-view scroll-y class="scrollPage">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">1.视频资源 ： 丢失的一角</text>
+  </view>
+  <navigator url="../one_fallsemester/video_one/video_one" class="BTIM_image">
+    <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/queshao.jpg?sign=b7f88e267eaf6ccc5ab257f2c757372d&t=1601982962"></image>
+  </navigator>
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">2.霍兰德兴趣测试</text>
+  </view>
+  <navigator url="../../HuoLanDe/HuoLanDe">
+    <image class="BTIM" src="../../../image/ad9.jpg"></image>
+  </navigator>
+
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">3.MBTI职业性格测试</text>
+  </view>
+  <navigator url="../../MBTI_detail/MBTI_detai">
+    <image class="BTIM" src="../../../image/ad8.jpg"></image>
+  </navigator>
+
+
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">4.多元智能测试</text>
+  </view>
+  <navigator url="../../DuoZhiYuan/start_des/start_des">
+    <image class="BTIM" src="../../../image/ad10.jpg"></image>
+  </navigator>
+
+  <view class="space">.</view>
+  <view class="space">.</view>
+  <view class="space">.</view>
+  
+  <button class="MBTI_BUTTON" bindtap="hld_MBTI"  type="primary" style="width:100%" >返回首页看更多精彩内容</button>
+</scroll-view>

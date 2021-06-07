@@ -1,0 +1,50 @@
+/* pages/gailuopu/test/test.wxss */
+.userpicture{
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 150rpx;
+  width: 150rpx;
+}
+
+.userpicture1{
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 100rpx;
+  width: 100rpx;
+}
+.userpicture2{
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 70rpx;
+  width: 70rpx;
+}
+.userpicture3{
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 100rpx;
+  width: 100rpx;
+}
+.userpicture4{
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 150rpx;
+  width: 150rpx;
+}
+.cardTitle{
+  color:rgb(214, 22, 22);
+  padding:0rpx 20rpx 15rpx 280rpx;
+  font-size: 60rpx;
+  font-weight: 600;
+  transform: skew(-10deg, 0deg);
+  position: relative;
+  text-shadow: 0px 0px 6rpx rgba(0,0,0,0.3)
+}
+.cardTitle_{
+  color:rgb(11, 87, 201);
+  padding:0rpx 20rpx 15rpx 150rpx;
+  font-size: 50rpx;
+  font-weight: 600;
+  transform: skew(-10deg, 0deg);
+  position: relative;
+  text-shadow: 0px 0px 6rpx rgba(0,0,0,0.3)
+}

@@ -1,0 +1,5 @@
+/* pages/about_jing/about_jing.wxss */
+.xueke{
+  width:50rpx;
+  height: 50rpx;
+}

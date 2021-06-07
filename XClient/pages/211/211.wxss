@@ -1,0 +1,56 @@
+
+.question_detai{
+  font-size: 150%;
+  background-color: rgba(0, 251, 255, 0.07);
+  margin: 100 0 30 0;
+  padding: 30rpx 30rpx 10rpx;
+}
+
+
+.selection_A{
+  width: 92%;
+  height: 150rpx;
+  background-color: white;
+  padding: 50rpx 20rpx 10rpx;
+  box-sizing: border-box;
+  border: 3rpx solid rgba(0, 110, 255, 0.781);
+  margin: 30rpx;
+  
+  font-size: 100%;
+  
+}
+.selection_B{
+  width: 92%;
+  height: 150rpx;
+  background-color: white;
+  padding: 50rpx 20rpx 10rpx;
+  box-sizing: border-box;
+  border: 3rpx solid rgba(0, 110, 255, 0.781);
+  margin: 30rpx;
+  
+  font-size: 100%;
+}
+
+.selection_C{
+  width: 92%;
+  height: 150rpx;
+  background-color: white;
+  padding: 50rpx 20rpx 10rpx;
+  box-sizing: border-box;
+  border: 3rpx solid rgba(0, 110, 255, 0.781);
+  margin: 30rpx;
+  
+  font-size: 100%;
+}
+
+.selection_D{
+  width: 92%;
+  height: 150rpx;
+  background-color: white;
+  padding: 50rpx 20rpx 10rpx;
+  box-sizing: border-box;
+  border: 3rpx solid rgba(0, 110, 255, 0.781);
+  margin: 30rpx;
+  
+  font-size: 100%;
+}

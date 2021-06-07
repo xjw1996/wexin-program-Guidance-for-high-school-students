@@ -1,0 +1,178 @@
+<!--pages/start_MBTI/MBTI_report/MBTI_report.wxml-->
+<view class="action">
+    <text class="cuIcon-title text-pink"></text> 
+    <text class="text-black text-bold">您的性格类型是{{result_detail[R]._id}}{{result_detail[R].Occupational_Orientation}}</text>
+  </view>
+<view class="container">
+  <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}" force-use-old-canvas="true"></ec-canvas>
+</view>
+
+<view class="space">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold">个性特征描述：</text>
+</view>
+<view class="margin-lr-sm">
+  <view><text>{{result_detail[R].a}}</text></view>
+  <view><text>{{result_detail[R].b}}</text></view>
+  <view><text>{{result_detail[R].c}}</text></view>
+  <view><text>{{result_detail[R].d}}</text></view>
+  <view><text>{{result_detail[R].e}}</text></view>
+  <view><text>{{result_detail[R].f}}</text></view>
+  <view><text>{{result_detail[R].g}}</text></view>
+</view>
+
+<view>
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold">可能存在的盲点：</text>
+</view>
+<view class="margin-lr-sm">
+  <view><text>{{result_detail[R].h}}</text></view>
+  <view><text>{{result_detail[R].i}}</text></view>
+  <view><text>{{result_detail[R].j}}</text></view>
+  <view><text>{{result_detail[R].k}}</text></view>
+</view>
+
+<view>
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold">学习和工作中的优势:</text>
+</view>
+<view class="margin-lr-sm">
+  <view><text>{{result_detail[R].l}}</text></view>
+  <view><text>{{result_detail[R].m}}</text></view>
+  <view><text>{{result_detail[R].n}}</text></view>
+  <view><text>{{result_detail[R].o}}</text></view>
+  <view><text>{{result_detail[R].p}}</text></view>
+  <view><text>{{result_detail[R].q}}</text></view>
+  <view><text>{{result_detail[R].r}}</text></view>
+  <view><text>{{result_detail[R].s}}</text></view>
+  <view><text>{{result_detail[R].t}}</text></view>
+  <view><text>{{result_detail[R].u}}</text></view>
+  <view><text>{{result_detail[R].v}}</text></view>
+</view>
+
+<view>
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold">学习或工作中的劣势：</text>
+</view>
+<view class="margin-lr-sm">
+  <view><text>{{result_detail[R].w}}</text></view>
+  <view><text>{{result_detail[R].x}}</text></view>
+  <view><text>{{result_detail[R].y}}</text></view>
+  <view><text>{{result_detail[R].z}}</text></view>
+</view>
+<!--1-->
+<view>
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold">适合的职业领域：</text>
+</view>
+<view class='history-table-wrap'>
+    <view class="table">
+      <view class="tr" >
+          <view class="td td1">{{result_detail[R].A}}</view>
+          <view class="td td2">{{result_detail[R].B}}</view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">{{result_detail[R].C}}</view>
+          <view class="td td2">{{result_detail[R].D}}</view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">{{result_detail[R].E}}</view>
+          <view class="td td2">{{result_detail[R].F}}</view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">{{result_detail[R].G}}</view>
+          <view class="td td2">{{result_detail[R].H}}</view>
+      </view>
+    </view>
+ </view>
+<!--2-->
+<view>
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold">适合的大学专业：</text>
+</view>
+ <view class='history-table-wrap'>
+    <view class="table">
+      <view class="tr" >
+          <view class="td td1">{{result_detail[R].I}}</view>
+          <view class="td td2">{{result_detail[R].J}}</view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">{{result_detail[R].M}}</view>
+          <view class="td td2">{{result_detail[R].N}}</view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">{{result_detail[R].O}}</view>
+          <view class="td td2">{{result_detail[R].P}}</view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">{{result_detail[R].Q}}</view>
+          <view class="td td2">{{result_detail[R].R}}</view>
+      </view>
+       <view class="tr" >
+          <view class="td td1">{{result_detail[R].S}}</view>
+          <view class="td td2">{{result_detail[R].T}}</view>
+      </view>
+       <view class="tr" >
+          <view class="td td1">{{result_detail[R].U}}</view>
+          <view class="td td2">{{result_detail[R].V}}</view>
+      </view>
+       <view class="tr" >
+          <view class="td td1">{{result_detail[R].W}}</view>
+          <view class="td td2">{{result_detail[R].X}}</view>
+      </view>
+       <view class="tr" >
+          <view class="td td1">{{result_detail[R].Y}}</view>
+          <view class="td td2">{{result_detail[R].Z}}</view>
+      </view>
+       <view class="tr" >
+          <view class="td td1">{{result_detail[R].aa}}</view>
+          <view class="td td2">{{result_detail[R].bb}}</view>
+      </view>
+       <view class="tr" >
+          <view class="td td1">{{result_detail[R].cc}}</view>
+          <view class="td td2">{{result_detail[R].dd}}</view>
+      </view>
+    </view>
+ </view>
+
+ <view>
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold">高中阶段可能擅长的学科：</text>
+</view>
+<view class='history-table-wrap'>
+    <view class="table">
+      <view class="tr" >
+          <view class="td td1">{{result_detail[R].ee}}</view>
+          <view class="td td2">{{result_detail[R].ff}}</view>
+      </view>
+      <view class="tr" >
+          <view class="td td1">{{result_detail[R].gg}}</view>
+          <view class="td td2"> </view>
+      </view>
+    </view>
+ </view>
+ <view>
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold">潜在缺陷：</text>
+</view>
+<view class="margin-lr-sm">
+  <view><text>{{result_detail[R].hh}}</text></view>
+  <view><text>{{result_detail[R].ii}}</text></view>
+  <view><text>{{result_detail[R].jj}}</text></view>
+  <view><text>{{result_detail[R].kk}}</text></view>
+</view>
+
+<view>
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold">个人发展建议：</text>
+</view>
+<view class="margin-lr-sm">
+  <view><text>{{result_detail[R].ll}}</text></view>
+  <view><text>{{result_detail[R].mm}}</text></view>
+  <view><text>{{result_detail[R].nn}}</text></view>
+  <view><text>{{result_detail[R].oo}}</text></view>
+  <view><text>{{result_detail[R].pp}}</text></view>
+  <view><text>{{result_detail[R].qq}}</text></view>
+  <view><text>{{result_detail[R].rr}}</text></view>
+  <view><text>{{result_detail[R].ss}}</text></view>
+</view>

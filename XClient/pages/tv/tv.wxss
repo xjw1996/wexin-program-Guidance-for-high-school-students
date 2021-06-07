@@ -1,0 +1,17 @@
+.video {
+  width: 100vw;
+  height: 40vw;  /* 全屏宽*/
+}
+.tv_show{
+  width:100%;
+  height:30px;
+  overflow: hidden;
+}
+
+.title_1{
+  font-size: 100%;
+  text-align: auto;
+  color: rgb(24, 2, 73);
+  font-weight:700;
+  font-family: 楷体;
+}

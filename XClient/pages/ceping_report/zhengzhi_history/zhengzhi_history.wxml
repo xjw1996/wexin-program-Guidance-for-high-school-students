@@ -1,0 +1,23 @@
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您对政治学科兴趣测试结果为{{interest_score}}分:</text>
+</view>
+<canvas canvas-id="ringCanvas2" disable-scroll="true" class="canvas canvas2"></canvas>
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您的政治学科优劣程度测试结果为{{final_score}}分:</text>
+</view>
+<canvas canvas-id="ringCanvas" disable-scroll="true" class="canvas canvas2"></canvas>
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">错题总结</text>
+</view>
+<view class="col-2 padding-xs">
+  <view class="padding-xs">
+    <view wx:for="{{wrong_arr}}" wx:item="item" wx:key="key" class="bg-gradual-orange padding-sm radius margin-top shadow-blur">
+      <view class="text-df content_position padding-left ">{{call_database[item].Q}}</view>
+      <view class="text-df content_position padding-left ">正确选项为 {{call_database[item].T}}</view>
+      
+    </view>
+  </view>
+</view>

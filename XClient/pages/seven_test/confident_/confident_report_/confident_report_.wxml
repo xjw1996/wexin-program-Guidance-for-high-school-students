@@ -1,0 +1,18 @@
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您的自信心测试结果如下</text>
+</view>
+<canvas canvas-id="ringCanvas" disable-scroll="true" class="canvas canvas2"></canvas>
+
+<view class=' bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-black text-bold'>详细说明：</view>
+  <view class='text-content'>
+    
+      <view class='action'>  
+      </view> 
+      <view class="text-lg  padding-left "><text class="text-black text-bold">1.</text>如果你的分数是  <text class="text-red text-bold">25 ～ 40</text>，说明你对自己自信心十足，明白自己的优点，同时也清楚自己的缺点。</view>
+      <view class="text-lg  padding-left "><text class="text-black text-bold">2.</text>如果你得分将近 <text class="text-red text-bold">40</text> 的话，别人可能会认为你很自大狂傲，甚至气焰太胜。你不妨在别人面前谦虚一点，这样人缘才会好。</view>
+      <view class="text-lg  padding-left "><text class="text-black text-bold">3.</text>如果你的分数是 <text class="text-red text-bold">12 ～ 24</text> 说明你对自己颇有自信，但是你仍或多或少缺乏安全感，对自己产生怀疑。你不妨提醒自己，在优点和长处各方面并不比别人差。</view>
+      <view class="text-lg  padding-left "><text class="text-black text-bold">4.</text>如果你的分数是 <text class="text-red text-bold">11</text>以下，说明你对自己显然不太有信心。你过于谦虚和自我压抑，因此经常受人支配。从现在起，尽量不去想自己的弱点，多往好的一面去衡量 ，先学会看重自己，别人才会真正看重你。</view>
+  </view>
+</view>

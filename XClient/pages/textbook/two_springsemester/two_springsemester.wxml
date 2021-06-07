@@ -1,0 +1,77 @@
+
+
+
+
+
+<scroll-view scroll-y class="scrollPage">
+
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">1.意志力测评</text>
+</view>
+<navigator url="../../seven_test/yizhili/yizhili">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/responsibility.png?sign=e9fa5c79a3e7fd067482a303d6fbe1e4&t=1601983414"></image>
+</navigator>
+
+
+
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">2.自控力测评</text>
+</view>
+<navigator url="../../seven_test/zikongli/zikongli">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/zikongli.jpg?sign=ffdb873e238f741074ca3776c8ea2db3&t=1601983983"></image>
+</navigator>
+
+
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">3.你会提问吗？</text>
+</view>
+<navigator url="../../seven_test/Are_youquestion/Are_youquestion">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/question.jpg?sign=4a37a3ebb448a04563c22b1499a26c6b&t=1601983448"></image>
+</navigator>
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">4.高效能学生的7个好习惯测评</text>
+</view>
+<navigator url="../../seven_test/seven_XG/seven_XG">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/habit.jpg?sign=05820a51c413454b4ea8b6b288bb7870&t=1601983471"></image>
+</navigator>
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">5.感恩水平测评</text>
+</view>
+<navigator url="../../seven_test/ganen/ganen">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/feel_grateful.jpg?sign=cf77a09e426652673a4d90373cb688c1&t=1601983503"></image>
+</navigator>
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">6.责任心测评</text>
+</view>
+<navigator url="../../seven_test/duty/duty">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/responsibility.png?sign=9e8e0f3a7ccb562e6022bc2661bd70b4&t=1601983792"></image>
+</navigator>
+
+<view class="action">
+    <text class="cuIcon-title text-pink"></text>
+    <text class="text-black text-bold ">7.视频资源 ： 一名高中生镜头里的抗疫</text>
+  </view>
+  <navigator url="../../34/34" class="BTIM_image">
+    <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/kangyi.jpg?sign=a7e3e6db755d6a2a3df2fb53d58bf858&t=1601983763"></image>
+  </navigator>
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">8.自信心测评</text>
+</view>
+<navigator url="../../seven_test/confident_/confident_">
+  <image class="BTIM" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/index_pic/self-confident.jpg?sign=bce9631581aff49b2ee042899af94f3f&t=1601983816"></image>
+</navigator>
+
+
+<view class="space">.</view>
+<view class="space">.</view>
+<view class="space">.</view>
+
+<button class="MBTI_BUTTON" bindtap="hld_MBTI"  type="primary" style="width:100%" >返回首页看更多精彩内容</button>
+</scroll-view>

@@ -1,0 +1,51 @@
+
+<view class="bg-gradual-blue padding-sm radius  shadow-blur text-center">
+  <text class="text-xxl padding">职业锚测试</text>
+  <view class="padding text-content text-left text-lg">
+    <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;职业锚是指当一个人不得不做出职业选择时，无论如何都不会放弃的那种至关重要的东西或价值观。职业锚不是职业，职业是你谋生的工具，而职业锚是你能够实现自我、真正想要的职业类型。美国施恩教授把职业锚分成八种类型：技术∕ 职能型、管理型、自主∕ 独立型、安全∕ 稳定型、创造∕创业型、服务型、挑战型、生活型。</text> 
+  </view>
+</view>
+<button class="MBTI_BUTTON" bindtap="hld_MBTI"  type="primary" style="width:100%">开始测试</button>
+
+<view class="action margin-xl">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">测试须知</text>
+</view>
+
+<view class="margin-customsize_sed  text-left text-lg">
+    <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;1.本测评共有有41题，前40题每个题都有“从不”“偶尔” “有时”“经常” “频繁” “总是”6个选项，请为每题选择一个代表你真实想法的选项。第41题共有8个选项，请选出与你的日常想法最为吻合的三个类型。对待测评的态度可能会影响测评结果的准确性，需要你平静而认真的做出选择。</text> 
+</view>
+<view class="margin-customsize_sed  text-left text-lg">
+    <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;2.测评中的任何一道题都没有好坏之分，请按照自己的真实感受作答。</text> 
+</view>
+<view class="margin-customsize_sed  text-left text-lg">
+    <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;3.请在答题时遵循自己内心的选择，而不是自己的期望或别人的期望。</text> 
+</view>
+<view class="margin-customsize_sed  text-left text-lg">
+    <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;4.本测评大约需要10-20分钟，请一次性完成，而不是被中途打断后接着答题。</text> 
+</view>
+
+
+
+
+<button class="MBTI_BUTTON" bindtap="showModal"  type="primary" style="width:100%" data-target="DialogModal1">我已认真阅读测评须知并进行下一步</button>
+<view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">重要的事要多说一遍</view>
+      <view class="action" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl">
+      各位“童鞋”！如果您真的以仔细阅读，那就去做题吧。但不建议中途退出，请坚持到最后！！如果对规则还有些模棱两可，那就回头看看吧。
+    </view>
+    <view class=" bg-white ">
+      <view class="action">
+        <button class="cu-btn bg-green margin-bottom-sm" bindtap="hideModal_">开始测试</button>
+        <button class="cu-btn line-green text-green margin-bottom-sm" bindtap="hideModal">回头再看看</button>
+      </view>
+    </view>
+  </view>
+</view>
+

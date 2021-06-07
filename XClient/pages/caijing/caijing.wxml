@@ -1,0 +1,331 @@
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">农学</text>
+</view>
+<view class="margin-top ">
+    <view class="table">
+        <view class="tr2" >
+            <view class="td td1 th">农学</view>
+            <view class="td td2 th">院校</view>
+        </view>
+        <view class="tr" >
+            <view class=" td_ td1">作物学</view>
+            <view class="td td2">中国农业大学<view>南京农业大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">园艺学</view>
+            <view class="td td2">浙江大学 <view>华中农业大学</view></view>
+        </view>
+        <view class="tr" >
+            <view class="td_ td1">农业资源与环境</view>
+            <view class="td td2">南京农业大学 <view>浙江大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">植物保护</view>
+            <view class="td td2">南京农业大学 <view>浙江大学</view></view>
+        </view>
+            <view class="tr" >
+            <view class="td_ td1">畜牧学</view>
+            <view class="td td2">中国农业大学 <view>华中农业大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">兽医学</view>
+            <view class="td td2">中国农业大学 <view>华中农业大学</view></view>
+        </view>
+        <view class="tr" >
+            <view class="td_ td1">林学</view>
+            <view class="td td2">北京林业大学 <view>南京林业大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">水产</view>
+            <view class="td td2">上海海洋大学 <view>中国海洋大学</view></view>
+        </view>
+        <view class="tr" >
+            <view class="td_ td1">草学</view>
+            <view class="td td2">中国农业大学 <view>兰州大学</view></view>
+        </view>
+    
+    </view>
+</view>
+
+
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">医学</text>
+</view>
+<view class="margin-top-lg">
+    <view class="table">
+      <view class="tr2" >
+          <view class="td td1 th">医学</view>
+          <view class="td td2 th">院校</view>
+      </view>
+      <view class="tr" >
+          <view class=" td_ td1">基础医学</view>
+          <view class="td td2">北京大学<view>北京协和医院</view></view>
+      </view>
+      <view class="tr2" >
+          <view class="td_ td1">临床医学</view>
+          <view class="td td2">上海交通大学 <view>浙江大学</view></view>
+      </view>
+      <view class="tr" >
+          <view class="td_ td1">口腔医学</view>
+          <view class="td td2">北京大学 <view>四川大学</view><view>第四军医大学</view></view>
+      </view>
+      <view class="tr2" >
+          <view class="td_ td1">公共卫生与预防医学</view>
+          <view class="td td2">南京医科大学 <view>华中科技大学</view></view>
+      </view>
+        <view class="tr" >
+          <view class="td_ td1">中医学</view>
+          <view class="td td2">北京中医药大学 <view>上海中医药大学</view></view>
+      </view>
+       <view class="tr2" >
+          <view class="td_ td1">中西医结合</view>
+          <view class="td td2">北京中医药大学 <view>上海中医药大学</view></view>
+      </view>
+      <view class="tr" >
+          <view class="td_ td1">药学</view>
+          <view class="td td2">北京协和医院 <view>中国医药大学</view></view>
+      </view>
+       <view class="tr2" >
+          <view class="td_ td1">中药学</view>
+          <view class="td td2">黑龙江中医药大学 <view>上海中医药大学</view></view>
+      </view>
+      <view class="tr" >
+          <view class="td_ td1">护理学</view>
+          <view class="td td2">中南大学 <view>第二军医大学</view></view>
+      </view>
+   </view>
+</view>
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">管理学</text>
+</view>
+<view class="margin-top-lg">
+    <view class="table">
+      <view class="tr2" >
+          <view class="td td1 th">管理学</view>
+          <view class="td td2 th">院校</view>
+      </view>
+      <view class="tr" >
+          <view class=" td_ td1">管理科学与工程</view>
+          <view class="td td2">清华大学<view>同济大学</view><view>国防科技大学</view></view>
+      </view>
+      <view class="tr2" >
+          <view class="td_ td1">工商管理</view>
+          <view class="td td2">中国人民大学 <view>清华大学</view><view>上海交通大学</view><view>中山大学</view></view>
+      </view>
+      <view class="tr" >
+          <view class="td_ td1">农村经济管理</view>
+          <view class="td td2">南京农业大学 <view>浙江大学</view></view>
+      </view>
+      <view class="tr2" >
+          <view class="td_ td1">公共管理</view>
+          <view class="td td2">中国人民大学 <view>清华大学</view></view>
+      </view>
+        <view class="tr" >
+          <view class="td_ td1">图书馆情报与档案管理</view>
+          <view class="td td2">南京大学 <view>武汉大学</view></view>
+      </view>
+    </view>
+</view>
+
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">艺术学</text>
+</view>
+<view class="margin-top-lg">
+    <view class="table">
+      <view class="tr2" >
+          <view class="td td1 th">艺术学</view>
+          <view class="td td2 th">院校</view>
+      </view>
+      <view class="tr" >
+          <view class=" td_ td1">艺术学理论</view>
+          <view class="td td2">北京大学<view>东南大学</view></view>
+      </view>
+      <view class="tr2" >
+          <view class="td_ td1">音乐与舞蹈学</view>
+          <view class="td td2">中央音乐学院 <view>上海音乐学院</view></view>
+      </view>
+      <view class="tr" >
+          <view class="td_ td1">戏剧与影视学</view>
+          <view class="td td2">北京师范大学 <view>中国传媒大学</view></view>
+      </view>
+        <view class="tr2" >
+            <view class="td_ td1">美术学</view>
+            <view class="td td2">中央美术学院 <view>中国美术学院</view></view>
+        </view>
+        <view class="tr" >
+          <view class="td_ td1">设计学</view>
+          <view class="td td2">清华大学 <view>中国美术学院</view></view>
+        </view>
+    </view>
+</view>
+<view class="action">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">工学</text>
+</view>
+<view class="margin-top ">
+    <view class="table">
+        <view class="tr2" >
+            <view class="td td1 th">工学</view>
+            <view class="td td2 th">院校</view>
+        </view>
+        <view class="tr" >
+            <view class=" td_ td1">力学</view>
+            <view class="td td2">北京大学<view>清华大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">机械工程</view>
+            <view class="td td2">清华大学 <view>哈尔滨工业大学</view><view>上海交通大学</view><view>华中科技大学</view></view>
+        </view>
+        <view class="tr" >
+            <view class="td_ td1">光学工程</view>
+            <view class="td td2">浙江大学 <view>华中科技大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">仪器科学与技术</view>
+            <view class="td td2">清华大学 <view>北京航空航天大学</view></view>
+        </view>
+        <view class="tr" >
+            <view class="td_ td1">材料工程与科学</view>
+            <view class="td td2">清华大学 <view>北京航空航天大学</view><view>武汉理工大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">冶金工程</view>
+            <view class="td td2">北京科技大学 <view>中南大学</view></view>
+        </view>
+        <view class="tr" >
+            <view class="td_ td1">动力工程与技术</view>
+            <view class="td td2">清华大学 <view>西安交通大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">电气工程</view>
+            <view class="td td2">清华大学 <view>西安交通大学</view></view>
+        </view>
+        <view class="tr" >
+            <view class="td_ td1">电子科学与技术</view>
+            <view class="td td2">电子科技大学 <view>西安电子科技大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">信息与通信工程</view>
+            <view class="td td2">北京邮电大学 <view>电子科技大学</view></view>
+        </view>
+        <view class="tr" >
+            <view class="td_ td1">控制科学与工程</view>
+            <view class="td td2">清华大学 <view>哈尔滨工业大学</view> <view>浙江大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">计算机科学与工程</view>
+            <view class="td td2">北京大学 <view>清华大学</view><view>浙江大学</view><view>国防科技大学</view></view>
+        </view>
+        <view class="tr" >
+            <view class="td_ td1">建筑学</view>
+            <view class="td td2">清华大学 <view>东南大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">土木工程</view>
+            <view class="td td2">同济大学 <view>东南大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">水利工程</view>
+            <view class="td td2">清华大学 <view>河海大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">测绘工程与技术</view>
+            <view class="td td2">武汉大学 <view>解放军信息工程大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">化学工程与技术</view>
+            <view class="td td2">天津大学 <view>华东理工大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">地质资源与地质工程</view>
+            <view class="td td2">中国地质大学 <view>中国石油大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">矿业工程</view>
+            <view class="td td2">中国矿业大学 <view>中南大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">石油与天然气工程</view>
+            <view class="td td2">西南石油大学 <view>中国石油大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">纺织科学与工程</view>
+            <view class="td td2">天津工业大学 <view>华东大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">轻工技术与工程</view>
+            <view class="td td2">江南大学 <view>华南理工大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">交通运输工程</view>
+            <view class="td td2">东南大学 <view>西南交通大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">船舶与海洋工程</view>
+            <view class="td td2">哈尔滨工程大学 <view>上海交通大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">航空宇航科学技术</view>
+            <view class="td td2">北京航空航天大学 <view>西北工业大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">兵器科学与技术</view>
+            <view class="td td2">北京理工大学 <view>南京理工大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">核科学与技术</view>
+            <view class="td td2">清华大学 <view>中国科学技术大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">农业工程</view>
+            <view class="td td2">中国农业大学 <view>浙江大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">林业工程</view>
+            <view class="td td2">东北林业大学 <view>南京林业大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">环境科学与工程</view>
+            <view class="td td2">清华大学 <view>哈尔滨工业大学</view><view>同济大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">生物医学工程</view>
+            <view class="td td2">东南大学 <view>华中科技大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">食品科学与工程</view>
+            <view class="td td2">中国农业大学 <view>江南大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">城乡规划</view>
+            <view class="td td2">清华大学 <view>北京林业大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">风景园林学</view>
+            <view class="td td2">清华大学 <view>北京林业大学</view></view>
+        </view>
+
+        <view class="tr" >
+            <view class="td_ td1">软件工程</view>
+            <view class="td td2">北京昂空航天大学 <view>浙江大学</view><view>国防科技大学</view></view>
+        </view>
+        <view class="tr2" >
+            <view class="td_ td1">安全科学与工程</view>
+            <view class="td td2">中国矿业大学 <view>中国科学技术大学</view></view>
+        </view>
+    </view>
+</view>

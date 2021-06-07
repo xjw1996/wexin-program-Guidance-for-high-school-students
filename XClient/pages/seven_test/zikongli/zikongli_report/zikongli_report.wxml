@@ -1,0 +1,18 @@
+<view class="action margin-top">
+  <text class="cuIcon-title text-pink"></text>
+  <text class="text-black text-bold ">您的自控力水平测试结果如下</text>
+</view>
+<canvas canvas-id="ringCanvas" disable-scroll="true" class="canvas canvas2"></canvas>
+<view class="space">
+  <view class=' bg-white padding-xl radius shadow-lg'>
+    <view class='text-center margin-bottom text-lg  text-black text-bold'>详细说明：</view>
+    <view class='text-content'>
+      
+        <view class='action'>  
+        </view> 
+        <view class="text-lg  padding-left "><text class="text-red text-bold">23—30分 :</text>恭喜你，你是一个比较有自控力的人。</view>
+        <view class="text-lg  padding-left "><text class="text-red text-bold">15—22分 :</text>你的想法很美好，你想要管住自己，也做过尝试，但是你不能坚持。</view>
+        <view class="text-lg  padding-left "><text class="text-red text-bold">15分以下 :</text>你真的要想办法管住自己了。</view>
+    </view>
+  </view>
+</view>

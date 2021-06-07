@@ -1,0 +1,19 @@
+<view class=" customize margin-left-xs padding-customsize-0 radius-customsize text-xl">
+  <text>{{take_detail[i].Q}}</text>
+</view>
+
+<view class="selection_A" bindtap="if_A">
+  <text>{{take_detail[i].A}}</text>
+</view>
+
+<view class="selection_B" bindtap="if_B">
+  <text>{{take_detail[i].B}}</text>
+</view>
+
+<view class="selection_C" bindtap="if_C">
+  <text>{{take_detail[i].C}}</text>
+</view>
+
+<view class="selection_D" bindtap="if_D">
+  <text>{{take_detail[i].D}}</text>
+</view>

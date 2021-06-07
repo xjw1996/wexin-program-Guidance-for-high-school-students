@@ -1,0 +1,23 @@
+<view class="question_title">
+  <text>{{subjects[nn].titileA}}</text>
+</view>
+
+<view class="selection_A text-center" bindtap="if_A">
+  <text decode="{{true}}">A.非常重要</text>
+</view>
+
+<view class="selection_B text-center" bindtap="if_B">
+  <text>B.比较重要</text>
+</view>
+
+<view class="selection_C text-center" bindtap="if_C">
+  <text>C.一般</text>
+</view>
+
+<view class="selection_D text-center" bindtap="if_D">
+  <text>D.较不重要</text>
+</view>
+
+<view class="selection_E text-center" bindtap="if_E">
+  <text>E.很不重要</text>
+</view>

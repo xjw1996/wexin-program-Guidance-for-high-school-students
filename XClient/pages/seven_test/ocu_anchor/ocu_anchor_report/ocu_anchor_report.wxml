@@ -1,0 +1,52 @@
+
+<!--index.wxml-->
+<view class="container">
+  <ec-canvas id="mychart-dom-multi-bar" canvas-id="mychart-multi-bar" ec="{{ ec }}" force-use-old-canvas="true"></ec-canvas>
+  <ec-canvas id="mychart-dom-multi-scatter" canvas-id="mychart-multi-scatter" ec="{{ ec2}}" force-use-old-canvas="true"></ec-canvas>
+</view>
+
+<view>
+  <text>职业锚折线图</text>
+</view>
+
+<view class="space">
+  <view>
+    <text class="text-black text-bold" decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我职业锚是</text>
+    <text class="text-red text-bold">{{OCU_F.type}}、{{OCU_S.type}}、{{OCU_T.type}}。</text>
+  </view>
+</view>
+
+
+
+<view class="td">
+  <text class="text-red text-bold">{{OCU_F.type}}</text>
+</view>
+<view class="margin-lr-sm">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{OCU_F.detail}}</text></view>
+</view>
+
+<view class="td">
+  <text class="text-red text-bold">{{OCU_S.type}}</text>
+</view>
+<view class="margin-lr-sm">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{OCU_S.detail}}</text></view>
+</view>
+
+<view class="td">
+  <text class="text-red text-bold">{{OCU_T.type}}</text>
+</view>
+<view class="margin-lr-sm">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{OCU_T.detail}}</text></view>
+</view>
+
+
+<view >
+  <text class="cuIcon-title text-red"></text>
+  <text class="text-black text-bold">温馨提示</text>
+</view>
+
+<view class="margin-lr-sm margin-bottom-xl">
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;职业锚测评结果可以辅助我们在中学学科、大学专业、未来职业的选择时做出更加合理的决定，但最终的选择还需要结合自己的学科特长、兴趣、性格、家庭背景、行业发展等多重因素。</text></view>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因此，本测评结果仅供参考，对测评结果的解读和分析更加重要。如需系统科学的分析与解读，请联系专业的施测师!</text></view>
+  <view><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如对本报告或本次咨询有任何疑问和建议，请发送邮件至325035619@qq.com。</text></view>
+</view>

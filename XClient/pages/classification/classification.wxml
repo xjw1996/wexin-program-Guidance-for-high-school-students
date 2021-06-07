@@ -1,0 +1,75 @@
+<scroll-view scroll-y  scroll-with-animation>
+  <view class="tower-swiper" bindtouchmove="towerMove" bindtouchstart="towerStart" bindtouchend="towerEnd">
+    <view class="tower-item {{item.zIndex==1?'none':''}}" wx:for="{{swiperList}}" wx:key="key" style="--index:{{item.zIndex}};--left:{{item.mLeft}}">
+      <view class="swiper-item">
+        <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+        <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+      </view>
+    </view>
+  </view>
+  
+
+  <view class="action">
+    <text class="cuIcon-title text-blue text-center"></text>高一上册线上资源
+  </view>
+<navigator url="../textbook/one_fallsemester/one_fallsemester">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/partoftest/gcyi11111111111111.png?sign=4da2155d5b41462d3dbd3168f0ce31d7&t=1602168775"></image>
+</navigator>
+
+<view class="action">
+  <text class="cuIcon-title text-blue"></text>高一下册线上资源
+</view>
+<navigator url="../textbook/one_springsemester/one_springsemester">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/partoftest/gcyixxce.png?sign=00bd4bfce5cf162e69a7047766eb677c&t=1602168333"></image>
+</navigator>
+
+<view class="action">
+  <text class="cuIcon-title text-blue"></text>高二上册线上资源
+</view>
+<navigator url="../textbook/two_fallsemester/two_fallsemester">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/partoftest/gceruhce.png?sign=4593221c47d752ce6ba98488e97ed583&t=1602168945"></image>
+</navigator>
+
+
+<view class="action">
+  <text class="cuIcon-title text-blue"></text>高二下册线上资源
+</view>
+<navigator url="../textbook/two_springsemester/two_springsemester">
+  <image class="xueke" src="https://7875-xuejingwei-m9vpp-1302778999.tcb.qcloud.la/partoftest/gcerxxce.png?sign=b562df53d390ffc9e3ada2932bcda87b&t=1602168747"></image>
+</navigator>
+
+  <!-- <view class="cu-card">
+    <view class=" cu-item bg-img shadow-blur" style="background-image:url({{item.url}})" bindtap="toChild" data-url="{{item.path}}" wx:for="{{list}}" wx:key>
+      <view class="cardTitle">
+        {{item.title}}
+      </view>
+    </view>
+  </view> -->
+
+
+  
+
+<!-- 
+  <view class="col-2 padding-xs">
+    <view class="padding-xs">
+      <view wx:for="{{level}}" wx:item="item" wx:key="key" class="bg-gradual-blue padding-sm radius margin-top shadow-blur">
+        <navigator url="{{item.src}}" class="BTIM_image">
+          <view class="text-xxl 　text-center ">{{item.name}}</view>
+  
+        </navigator>
+      </view>
+    </view>
+  </view> -->
+
+  
+  <!-- <view class="grid col-2 padding-sm">
+      <view class="padding-sm" wx:for="{{ColorList}}" wx:item="item" wx:key="key">
+        <navigator url="{{item.src}}" class="BTIM_image">
+            <view class="padding radius text-center shadow-blur bg-img" style="margin-right:10rpx; margin-top:0;background-image:url({{item.url}})">
+            <view class="text-lg text-white text-bold">{{item.title}}</view>
+            <view class="margin-top-sm text-Abc text-white text-bold">{{item.name}}</view>
+            </view>
+        </navigator>
+      </view>
+  </view> -->
+</scroll-view>
