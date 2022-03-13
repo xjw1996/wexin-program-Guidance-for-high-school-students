@@ -163,6 +163,12 @@ Page({
     })
   },
 
+  goBaidu(e) {
+    wx.navigateTo({
+      url: '../testbaidu/testbaidu',
+    })
+  },
+
   namelick: function (e) {
     var N_id=e.currentTarget.id;
     console.log(N_id)

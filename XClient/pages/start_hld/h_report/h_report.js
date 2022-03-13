@@ -1,6 +1,7 @@
 // pages/start_hld/start_hld.js
 import * as echarts from '../../../ec-canvas/echarts';
 var person_type_data=[];
+var hdlarr = new Array(6);
 var reality_add ;
 var research_add ;
 var rt_add ;
@@ -11,6 +12,7 @@ var Max_size=[];
 var Max_size_2=[];
 var Max;
 var New_arr=[];
+var New_arr_key=[];
 var type_name=[];
 var real_type_name=[]
 var occupational_interest=[];
@@ -48,6 +50,11 @@ Page({
       }
   },
 
+  HldArray: function(type,value){
+    this.type=type;
+    this.value=value;
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -60,113 +67,133 @@ Page({
     this.setData({
       person_type_data:person_type_data
      })
+    
+    function HldArray(type,value){
+      this.type=type;
+      this.value=value;
+    }
+
+    // for(var i=0;i<6;i++){
+    //   hdlarr[i][0]= new HldArray("reality_add",this.data.person_type_data[0].reality_add)
+    // }
  
-    console.log("我是现实",this.data.person_type_data[0].reality_add)
-    console.log("我是数组2",this.data.person_type_data[1])
+    // console.log("我是现实",this.data.person_type_data[0].reality_add)
+    // console.log("我是数组2",this.data.person_type_data[1])
     R=this.data.person_type_data[0].reality_add
     Y=this.data.person_type_data[1].research_add
     A=this.data.person_type_data[2].rt_add
     S=this.data.person_type_data[3].social_add
     E=this.data.person_type_data[4].enterprise_add
     O=this.data.person_type_data[5].routine_add
+    New_arr_key=["reality_add","research_add","rt_add","social_add","enterprise_add","routine_add"]
     New_arr=[R,Y,A,S,E,O]
-    console.log("我是新数组",New_arr)
-    Max=Math.max.apply(Math,New_arr)
+    for(var i=0;i<6;i++){
+      hdlarr[i]= new HldArray(New_arr_key[i],New_arr[i])
+    }
+    // console.log("我是hdlarr",hdlarr)
+
+    // console.log("--------------------------------------------------------------------")
+
+    hdlarr=hdlarr.sort(function(a,b){return b.value-a.value}) 
+    console.log("我是排序后的hdlarr",hdlarr)
+
+
+    // Max=Math.max.apply(Math,New_arr)
     // Max = Object.getOwnPropertyNames([this.data.person_type_data[0] , this.data.person_type_data[1] ,this.data.person_type_data[2] ,this.data.person_type_data[3] , this.data.person_type_data[4] , this.data.person_type_data[5] ])//参考文献https://blog.csdn.net/weixin_38897313/article/details/100977462 //https://www.cnblogs.com/joyho/articles/5499169.html
     // console.log(type_name)                                                                    
-        console.log("我是最大数",Max)
+        // console.log("我是最大数",Max)
         
-    Max_size=New_arr.sort(function(a,b){return b-a}) 
-    Max_size_2=this.data.person_type_data.sort(function(a,b){return b-a})
-    console.log("我是排序数组",Max_size)
-    console.log("我是排序数组",Max_size_2)
-    if(Max_size[0]==this.data.person_type_data[0].reality_add){//=赋值  ==等于
-      type_name.push("reality_add")
-    } ;
-    if(Max_size[0]==this.data.person_type_data[1].research_add){
-      type_name.push("research_add")
-    } ;
-    if(Max_size[0]==this.data.person_type_data[2].rt_add){
-      type_name.push("rt_add")
-    } ;
-    if(Max_size[0]==this.data.person_type_data[3].social_add){
-      type_name.push("social_add")
-    } ;
-    if(Max_size[0]==this.data.person_type_data[4].enterprise_add){
-      type_name.push("enterprise_add")
-    } ;
-    if(Max_size[0]==this.data.person_type_data[5].routine_add){
-      type_name.push("routine_add")
-    };
+    // Max_size=New_arr.sort(function(a,b){return b-a}) 
+    // Max_size_2=this.data.person_type_data.sort(function(a,b){return b-a})
+    // console.log("我是排序数组",Max_size)
+    // console.log("我是排序数组",Max_size_2)
+    // if(Max_size[0]==this.data.person_type_data[0].reality_add){//=赋值  ==等于
+    //   type_name.push("reality_add")
+    // } ;
+    // if(Max_size[0]==this.data.person_type_data[1].research_add){
+    //   type_name.push("research_add")
+    // } ;
+    // if(Max_size[0]==this.data.person_type_data[2].rt_add){
+    //   type_name.push("rt_add")
+    // } ;
+    // if(Max_size[0]==this.data.person_type_data[3].social_add){
+    //   type_name.push("social_add")
+    // } ;
+    // if(Max_size[0]==this.data.person_type_data[4].enterprise_add){
+    //   type_name.push("enterprise_add")
+    // } ;
+    // if(Max_size[0]==this.data.person_type_data[5].routine_add){
+    //   type_name.push("routine_add")
+    // };
 
-    if(Max_size[1]==this.data.person_type_data[0].reality_add){//=赋值  ==等于
-      type_name.push("reality_add")
-    } ;
-    if(Max_size[1]==this.data.person_type_data[1].research_add){
-      type_name.push("research_add")
-    } ;
-    if(Max_size[1]==this.data.person_type_data[2].rt_add){
-      type_name.push("rt_add")
-    } ;
-    if(Max_size[1]==this.data.person_type_data[3].social_add){
-      type_name.push("social_add")
-    } ;
-    if(Max_size[1]==this.data.person_type_data[4].enterprise_add){
-      type_name.push("enterprise_add")
-    } ;
-    if(Max_size[1]==this.data.person_type_data[5].routine_add){
-      type_name.push("routine_add")
-    };
+    // if(Max_size[1]==this.data.person_type_data[0].reality_add){//=赋值  ==等于
+    //   type_name.push("reality_add")
+    // } ;
+    // if(Max_size[1]==this.data.person_type_data[1].research_add){
+    //   type_name.push("research_add")
+    // } ;
+    // if(Max_size[1]==this.data.person_type_data[2].rt_add){
+    //   type_name.push("rt_add")
+    // } ;
+    // if(Max_size[1]==this.data.person_type_data[3].social_add){
+    //   type_name.push("social_add")
+    // } ;
+    // if(Max_size[1]==this.data.person_type_data[4].enterprise_add){
+    //   type_name.push("enterprise_add")
+    // } ;
+    // if(Max_size[1]==this.data.person_type_data[5].routine_add){
+    //   type_name.push("routine_add")
+    // };
 
-    if(Max_size[2]==this.data.person_type_data[0].reality_add){//=赋值  ==等于
-      type_name.push("reality_add")
-    } ;
-    if(Max_size[2]==this.data.person_type_data[1].research_add){
-      type_name.push("research_add")
-    } ;
-    if(Max_size[2]==this.data.person_type_data[2].rt_add){
-      type_name.push("rt_add")
-    } ;
-    if(Max_size[2]==this.data.person_type_data[3].social_add){
-      type_name.push("social_add")
-    } ;
-    if(Max_size[2]==this.data.person_type_data[4].enterprise_add){
-      type_name.push("enterprise_add")
-    } ;
-    if(Max_size[2]==this.data.person_type_data[5].routine_add){
-      type_name.push("routine_add")
-    };
-    F=type_name[0]
-    console.log("我是type_name",type_name)
+    // if(Max_size[2]==this.data.person_type_data[0].reality_add){//=赋值  ==等于
+    //   type_name.push("reality_add")
+    // } ;
+    // if(Max_size[2]==this.data.person_type_data[1].research_add){
+    //   type_name.push("research_add")
+    // } ;
+    // if(Max_size[2]==this.data.person_type_data[2].rt_add){
+    //   type_name.push("rt_add")
+    // } ;
+    // if(Max_size[2]==this.data.person_type_data[3].social_add){
+    //   type_name.push("social_add")
+    // } ;
+    // if(Max_size[2]==this.data.person_type_data[4].enterprise_add){
+    //   type_name.push("enterprise_add")
+    // } ;
+    // if(Max_size[2]==this.data.person_type_data[5].routine_add){
+    //   type_name.push("routine_add")
+    // };
+    // F=type_name[0]
+    // console.log("我是type_name",type_name)
 
-    real_type_name.push(type_name[0])
-    real_type_name.push(type_name[1])
-    if(type_name[0]==type_name[2]||type_name[1]==type_name[3]){
-      real_type_name.push(type_name[4])
-    };
-    if(type_name[0]!=type_name[2]||type_name[1]!=type_name[3]){
-      real_type_name.push(type_name[2])
-    };
-    console.log("我是最后的数组-------",real_type_name)
+    // real_type_name.push(type_name[0])
+    // real_type_name.push(type_name[1])
+    // if(type_name[0]==type_name[2]||type_name[1]==type_name[3]){
+    //   real_type_name.push(type_name[4])
+    // };
+    // if(type_name[0]!=type_name[2]||type_name[1]!=type_name[3]){
+    //   real_type_name.push(type_name[2])
+    // };
+    // console.log("我是最后的数组-------",real_type_name)
     const db = wx.cloud.database();
     wx.cloud.callFunction({
       name:"HLD_ocup",
       complete: res => {
         console.log('callFunction test result: ', res.result.data)
         for(var i=0;i<6;i++){
-          if(res.result.data[i]._id==real_type_name[0]){
+          if(res.result.data[i]._id==hdlarr[0].type){
             OCU_F=res.result.data[i]
             break
           }
         }
         for(var i=0;i<6;i++){
-          if(res.result.data[i]._id==real_type_name[1]){
+          if(res.result.data[i]._id==hdlarr[1].type){
             OCU_S=res.result.data[i]
             break
           }
         }
         for(var i=0;i<6;i++){
-          if(res.result.data[i]._id==real_type_name[2]){
+          if(res.result.data[i]._id==hdlarr[2].type){
             OCU_T=res.result.data[i]
             break
           }

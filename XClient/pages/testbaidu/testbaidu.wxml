@@ -1,0 +1,2 @@
+<!--pages/testbaidu/testbaidu.wxml-->
+<web-view src="http://18.179.136.83:58080"></web-view>

@@ -48,7 +48,7 @@ Page({
     wx.showToast({
       title: '加载中....',
       icon:'loading',
-      duration:4000
+      duration:1000
     })
     wx.cloud.callFunction({
       name:"get_hld_data",
